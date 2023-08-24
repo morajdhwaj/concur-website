@@ -70,8 +70,20 @@ nav {
   border-radius: 0 0 20px 20px;
   box-shadow: 0 23px 23px -21px rgba(0, 0, 0, 0.25);
   z-index: -99;
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
+  border-top: 1px solid #bbb8c3;
+}
+.mega-menu-1 {
+  color: black;
+  border-right: 1px solid #bbb8c3;
+}
+
+.mega-menu-1-item {
+  display: flex;
+  align-items: center;
+  color: #4f4c55;
+  margin-top: 1rem;
 }
 
 .content {
@@ -84,11 +96,12 @@ nav {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .header-mega-menu {
   font-weight: 600;
-  color: #a8a1b5;
+  color: #4f4c55;
   margin-bottom: 1rem;
 }
 
@@ -115,17 +128,17 @@ nav {
 }
 
 .mega-menu-link p {
-  font-size: 0.6875rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  color: #a8a1b5;
+  color: #898395;
 }
 
-.dropdown:hover .mega-menu {
-  color: #a92ec8;
-  visibility: visible;
-  transition: all 0.3s ease;
-  opacity: 1;
-}
+// .dropdown:hover .mega-menu {
+//   color: #a92ec8;
+//   visibility: visible;
+//   transition: all 0.3s ease;
+//   opacity: 1;
+// }
 
 .nav-item:hover .dropdown-icon {
   transform: rotate(180deg);
