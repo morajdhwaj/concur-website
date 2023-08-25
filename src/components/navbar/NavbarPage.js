@@ -42,7 +42,7 @@ const NavbarPage = () => {
           </div>
           <li className='nav-item'>
             <a href='' className='nav-link'>
-              Home
+              Solution
             </a>
           </li>
           <li
@@ -208,7 +208,7 @@ const NavbarPage = () => {
           </li>
           <li className='nav-item'>
             <a href='' className='nav-link'>
-              Event
+              Consulting
             </a>
           </li>
           <li className='nav-item'>
@@ -218,7 +218,7 @@ const NavbarPage = () => {
           </li>
           <li className='nav-item'>
             <a href='' className='nav-link'>
-              Contact
+              Support
             </a>
           </li>
         </ul>

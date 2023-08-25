@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
 }
@@ -15,13 +16,13 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1500px;
   height: 4rem;
   padding: 0 1rem;
   margin: 0 auto;
   z-index: 999;
+  font-family: 'Open Sans';
 }
 
 .toggle-menu,
@@ -33,10 +34,12 @@ nav {
   font-size: 1.75 rem;
   font-weight: 700;
   color: #000;
+  font-family: 'inter';
 }
 
 .nav-list {
   display: flex;
+  margin: 4rem;
 }
 
 .nav-item {
