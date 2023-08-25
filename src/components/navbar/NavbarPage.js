@@ -1,14 +1,32 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './_navbar-page.scss';
 
 const NavbarPage = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const megaMenuRef = useRef(null);
 
   const handleToggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  const handleOutsideClick = (event) => {
+    if (
+      megaMenuRef.current &&
+      !megaMenuRef.current.contains(event.target) &&
+      !event.target.classList.contains('mega-menu')
+    ) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, []);
   return (
     <header className=''>
       <nav>
@@ -28,8 +46,9 @@ const NavbarPage = () => {
             </a>
           </li>
           <li
-            className='nav-item dropdown nav-link dropdown-link'
+            className='nav-item dropdown nav-link dropdown-link '
             onClick={handleToggleMenu}
+            ref={megaMenuRef}
           >
             Courses
             {isMenuOpen ? (
@@ -50,8 +69,12 @@ const NavbarPage = () => {
 
                 <ul className='content'>
                   <li className='mega-menu-item header-mega-menu'>
-                    Design course
+                    <p className='header-mega-menu-h'> Featured</p>
+                    <i class='bx bx-right-arrow-alt'></i>
                   </li>
+                  <p className='header-mega-menu-p'>
+                    Explore AI & automation's major impact on breach
+                  </p>
                   <li className='mega-menu-item '>
                     <div className='menu-icon'>
                       <i class='bx bx-sidebar'></i>
@@ -59,6 +82,61 @@ const NavbarPage = () => {
                     <div className='mega-menu-link'>
                       <a href='#'>UI design</a>
                       <p>Create your own user interface</p>
+                    </div>
+                  </li>
+                  <li className='mega-menu-item '>
+                    <div className='menu-icon'>
+                      <i class='bx bx-sidebar'></i>
+                    </div>
+                    <div className='mega-menu-link'>
+                      <a href='#'>UX design</a>
+                      <p>Create your own user interface with user friendly</p>
+                    </div>
+                  </li>
+                  <li className='mega-menu-item '>
+                    <div className='menu-icon'>
+                      <i class='bx bx-rocket'></i>
+                    </div>
+                    <div className='mega-menu-link'>
+                      <a href='#'>UX boot</a>
+                      <p>Get custom training</p>
+                    </div>
+                  </li>
+                  <li className='mega-menu-item '>
+                    <div className='menu-icon'>
+                      <i class='bx bx-user-voice'></i>
+                    </div>
+                    <div className='mega-menu-link'>
+                      <a href='#'>learn and apply</a>
+                      <p>Learn the basic user interface</p>
+                    </div>
+                  </li>
+                </ul>
+
+                <ul className='content'>
+                  <li className='mega-menu-item header-mega-menu'>
+                    <p className='header-mega-menu-h'> Automation</p>
+                    <i class='bx bx-right-arrow-alt'></i>
+                  </li>
+                  <p className='header-mega-menu-p'>
+                    Explore AI & automation's major impact on breach
+                  </p>
+                  <li className='mega-menu-item '>
+                    <div className='menu-icon'>
+                      <i class='bx bx-sidebar'></i>
+                    </div>
+                    <div className='mega-menu-link'>
+                      <a href='#'>UI design</a>
+                      <p>Create your own user interface</p>
+                    </div>
+                  </li>
+                  <li className='mega-menu-item '>
+                    <div className='menu-icon'>
+                      <i class='bx bx-sidebar'></i>
+                    </div>
+                    <div className='mega-menu-link'>
+                      <a href='#'>UX design</a>
+                      <p>Create your own user interface with user friendly</p>
                     </div>
                   </li>
                   <li className='mega-menu-item '>
@@ -82,8 +160,12 @@ const NavbarPage = () => {
                 </ul>
                 <ul className='content'>
                   <li className='mega-menu-item header-mega-menu'>
-                    Design course
+                    <p className='header-mega-menu-h'> Design Courses</p>
+                    <i class='bx bx-right-arrow-alt'></i>
                   </li>
+                  <p className='header-mega-menu-p'>
+                    Explore AI & automation's major impact on breach
+                  </p>
                   <li className='mega-menu-item '>
                     <div className='menu-icon'>
                       <i class='bx bx-sidebar'></i>
@@ -95,34 +177,11 @@ const NavbarPage = () => {
                   </li>
                   <li className='mega-menu-item '>
                     <div className='menu-icon'>
-                      <i class='bx bx-rocket'></i>
-                    </div>
-                    <div className='mega-menu-link'>
-                      <a href='#'>UX boot</a>
-                      <p>Get custom training</p>
-                    </div>
-                  </li>
-                  <li className='mega-menu-item '>
-                    <div className='menu-icon'>
-                      <i class='bx bx-user-voice'></i>
-                    </div>
-                    <div className='mega-menu-link'>
-                      <a href='#'>learn and apply</a>
-                      <p>Learn the basic user interface</p>
-                    </div>
-                  </li>
-                </ul>
-                <ul className='content'>
-                  <li className='mega-menu-item header-mega-menu'>
-                    Design course
-                  </li>
-                  <li className='mega-menu-item '>
-                    <div className='menu-icon'>
                       <i class='bx bx-sidebar'></i>
                     </div>
                     <div className='mega-menu-link'>
-                      <a href='#'>UI design</a>
-                      <p>Create your own user interface</p>
+                      <a href='#'>UX design</a>
+                      <p>Create your own user interface with user friendly</p>
                     </div>
                   </li>
                   <li className='mega-menu-item '>
