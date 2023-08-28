@@ -16,6 +16,13 @@ const HomePage = () => {
         }
         button={'Register Today'}
       />
+      <DuoComponent
+        heading={'Achieving real-time visibility'}
+        detail={
+          ' Learn how IBM Instana helped Enento identify bugs much faster, lower existing latency and provide real-time visibility into every service request'
+        }
+        button={'Register Today'}
+      />
     </div>
   );
 };

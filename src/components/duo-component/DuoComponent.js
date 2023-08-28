@@ -9,8 +9,7 @@ const DuoComponent = ({ heading, detail, button }) => {
     backgroundPosition: 'center',
   };
   return (
-    <div style={divStyle}>
-      s
+    <div style={divStyle} className='duo-component'>
       <div className='duo-component-div'>
         <div className='duo-div1'>
           <h2 className='duo-div1-h2'>{heading}</h2>
