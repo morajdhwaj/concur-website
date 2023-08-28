@@ -1,0 +1,66 @@
+// .duo-component {
+//   margin-top: 5vh;
+//   background-image: url('https://i.stack.imgur.com/3hGEz.jpg');
+// }
+
+.duo-component-div {
+  background-image: linear-gradient(
+    to right,
+    black,
+    transparent
+  ); /* Gradient from red to yellow */
+  height: 60vh;
+  opacity: 1;
+}
+
+.duo-div1 {
+  color: #fff;
+  margin-left: 19vh;
+  width: 50%;
+}
+
+.duo-div1-h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 300;
+  padding-top: 2vh;
+  margin-right: 50vh;
+}
+
+.duo-div1-p {
+  color: #c6c6c6;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 10vh;
+  margin-right: 56vh;
+}
+
+.duo-div1-div {
+  display: flex;
+  width: 100%;
+}
+.duo-div1-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vh;
+  width: 20vh;
+  padding: 5px 5px;
+}
+.duo-div1-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vh;
+  width: 20vh;
+  padding: 5px 5px;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 2vh;
+}
+.duo-div1-butto-h5 {
+  color: #fff;
+}
+.duo-div1-button-i {
+  font-size: 30px;
+}

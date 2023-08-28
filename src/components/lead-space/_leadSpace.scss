@@ -1,0 +1,38 @@
+.lead-space {
+  display: flex;
+  font-family: 'Open Sans';
+  padding-top: 1vh;
+  margin-bottom: 3vh;
+}
+.left-div {
+  width: 50%;
+  margin-left: 19vh;
+}
+
+.right-div {
+  width: 50%;
+}
+
+.left-div h2 {
+  font-size: 60px;
+  padding-right: 10vh;
+  font-weight: 300;
+  color: #262626;
+}
+
+.left-div p {
+  margin-top: 19vh;
+  font-size: 25px;
+  padding-right: 35vh;
+  color: #525252;
+}
+.right-div-button {
+  font-size: 15px;
+  padding: 1vh 2vh;
+  margin-top: 3vh;
+}
+
+.left-div Button i {
+  margin-left: 2vh;
+  font-size: 25px;
+}
