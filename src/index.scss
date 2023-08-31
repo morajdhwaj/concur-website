@@ -3,9 +3,10 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  //  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,4 +28,17 @@ code {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+.h2 {
+  font-size: 60px;
+  padding-right: 10vh;
+  font-weight: 300;
+  color: #262626;
+}
+
+.p {
+  margin-top: 19vh;
+  font-size: 25px;
+  padding-right: 35vh;
+  color: #525252;
 }

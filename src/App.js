@@ -6,6 +6,8 @@ import NavbarPage from './components/navbar/NavbarPage';
 import { Content } from '@carbon/react';
 import HomePage from './pages/ homePage';
 import FooterPage from './components/footer';
+import ReportPage from './pages/report';
+import JobPage from './pages/job-page';
 
 const App = () => {
   return (
@@ -14,8 +16,10 @@ const App = () => {
       <Content>
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='/products' element={<ProductPage />} />
           <Route path='/solutions' element={<SolutionPage />} />
+          <Route path='/products' element={<ProductPage />} />
+          <Route path='/report' element={<ReportPage />} />
+          <Route path='/jobs' element={<JobPage />} />
         </Routes>
       </Content>
       <FooterPage />

@@ -1,10 +1,11 @@
 import React from 'react';
 import './_duo-component.scss';
 import { Button } from '@carbon/react';
+import { ArrowRight } from '@carbon/icons-react';
 
-const DuoComponent = ({ heading, detail, button }) => {
+const DuoComponent = ({ heading, detail, button, image }) => {
   const divStyle = {
-    backgroundImage: "url('https://i.stack.imgur.com/3hGEz.jpg')",
+    backgroundImage: image,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
@@ -15,13 +16,12 @@ const DuoComponent = ({ heading, detail, button }) => {
           <h2 className='duo-div1-h2'>{heading}</h2>
           <p className='duo-div1-p'>{detail}</p>
           <div className='duo-div1-div'>
-            <Button className='duo-div1-button'>
-              <h5 className='duo-div1-button-h5'>{button}</h5>
-              <i class='bx bx-right-arrow-alt duo-div1-button-i'></i>
+            <Button renderIcon={ArrowRight} size='md'>
+              {button}
             </Button>
-            <Button className='duo-div1-button2'>
-              <h5 className='duo-div1-button-h5'>Register Today</h5>
-              <i class='bx bx-right-arrow-alt duo-div1-button-i'></i>
+
+            <Button renderIcon={ArrowRight} size='md' kind='tertiary'>
+              Button
             </Button>
           </div>
         </div>

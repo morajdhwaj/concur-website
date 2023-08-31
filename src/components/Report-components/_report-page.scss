@@ -1,0 +1,41 @@
+.hero {
+  background-color: #f4f4f4;
+  display: flex;
+}
+.hero-div1 {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+.hero-div2 {
+  width: 45%;
+}
+.hero-div1 h1 {
+  color: #1062fe;
+  margin-top: 5vh;
+}
+
+.summary {
+  margin: 5vh 30vh 0 60vh;
+}
+
+.summary-msg-title {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #3f3f3f;
+  font-weight: 400;
+}
+
+.summary-msg {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #3f3f3f;
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 3vh;
+}
+
+.summary-description {
+  color: #3f3f3f;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 2vh;
+}

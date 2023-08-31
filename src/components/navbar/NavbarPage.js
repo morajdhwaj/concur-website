@@ -31,7 +31,7 @@ const NavbarPage = () => {
     <header className=''>
       <nav>
         <div className='logo'>
-          <a href='#'>Concur</a>
+          <a href='/'>Concur</a>
         </div>
         <div className='toggle-menu' id='toggle-menu'>
           <i class='bx bx-grid-alt'></i>
@@ -41,7 +41,7 @@ const NavbarPage = () => {
             <i class='bx bx-x'></i>
           </div>
           <li className='nav-item'>
-            <a href='' className='nav-link'>
+            <a href='/solutions' className='nav-link'>
               Solution
             </a>
           </li>
@@ -207,8 +207,8 @@ const NavbarPage = () => {
             )}
           </li>
           <li className='nav-item'>
-            <a href='' className='nav-link'>
-              Consulting
+            <a href='report' className='nav-link'>
+              Report
             </a>
           </li>
           <li className='nav-item'>
@@ -219,6 +219,11 @@ const NavbarPage = () => {
           <li className='nav-item'>
             <a href='' className='nav-link'>
               Support
+            </a>
+          </li>
+          <li className='nav-item'>
+            <a href='/jobs' className='nav-link'>
+              Jobs
             </a>
           </li>
         </ul>
