@@ -1,31 +1,68 @@
 import React from 'react';
 import './_duo-component.scss';
-import { Button } from '@carbon/react';
+import { Button, TextInput } from '@carbon/react';
 import { ArrowRight } from '@carbon/icons-react';
 
-const DuoComponent = ({ heading, detail, button, image }) => {
+const DuoComponent = ({
+  heading,
+  detail,
+  button,
+  button2,
+  bgImage,
+  image,
+  paragraph,
+  labelText,
+}) => {
   const divStyle = {
-    backgroundImage: image,
+    backgroundImage: bgImage,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
+
+  console.log(button === undefined);
+
   return (
     <div style={divStyle} className='duo-component'>
       <div className='duo-component-div'>
         <div className='duo-div1'>
           <h2 className='duo-div1-h2'>{heading}</h2>
-          <p className='duo-div1-p'>{detail}</p>
+          {paragraph !== undefined && (
+            <p className='duo-div1-detail'>{paragraph}</p>
+          )}
+          {detail !== undefined && <p className='duo-div1-p'>{detail}</p>}
+          {labelText !== undefined && (
+            <div className='duo-div1-div-search'>
+              <TextInput
+                type='text'
+                labelText={labelText}
+                placeholder='What are you looking for today'
+              />
+              <div className='duo-div1-div-search-button'>
+                <Button renderIcon={ArrowRight} size='md'>
+                  search
+                </Button>
+              </div>
+            </div>
+          )}
           <div className='duo-div1-div'>
-            <Button renderIcon={ArrowRight} size='md'>
-              {button}
-            </Button>
+            {button !== undefined && (
+              <Button renderIcon={ArrowRight} size='md'>
+                {button}
+              </Button>
+            )}
 
-            <Button renderIcon={ArrowRight} size='md' kind='tertiary'>
-              Button
-            </Button>
+            {button2 !== undefined && (
+              <Button renderIcon={ArrowRight} size='md' kind='tertiary'>
+                {button2}
+              </Button>
+            )}
           </div>
         </div>
-        <div className='duo-div2'>div2</div>
+        <div className='duo-div2'>
+          {image !== undefined && (
+            <img src={image} alt='Laptop' className='duo-div2-img' />
+          )}
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,45 @@
+.role-consult {
+  display: flex;
+  padding: 0 0 5vh 0;
+}
+
+.role-consult-div1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.role-consult-div2 {
+  width: 60%;
+}
+
+.role-consult-div2-heading {
+  margin: 10vh 0 5vh 0;
+}
+.role-consult-div2-p {
+  margin-top: 3vh;
+  font-size: 18px;
+}
+.role-consult-tile-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1vh;
+}
+
+.role-consult-tile {
+  background-color: #fff;
+  width: 40vh;
+  margin: 1vh;
+  border-bottom: 1px solid gray;
+}
+
+.role-consult-tile-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.role-consult-tile-address {
+  margin: 5vh 0 1vh 0;
+}
+.role-consult-button {
+  margin: 5vh 0 5vh 1vh;
+}

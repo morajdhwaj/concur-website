@@ -1,0 +1,70 @@
+.join-network {
+  background-color: red;
+  padding: 3vh 5vh 3vh 5vh;
+  margin: 5vh 0 5vh 0;
+}
+.join-network-heading {
+  width: 50vh;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.join-network-p {
+  font-size: 14px;
+  margin-top: 2vh;
+}
+.join-network-button {
+  margin-top: 1vh;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .join-network {
+    background-color: green;
+    padding: 4vh 10vh 6vh 10vh;
+    margin: 5vh 0 5vh 0;
+  }
+  .join-network-heading {
+    width: 50vh;
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .join-network-p {
+    font-size: 15px;
+    margin-top: 2vh;
+  }
+  .join-network-button {
+    margin-top: 2vh;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .join-network {
+    background-color: blue;
+    padding: 6vh 30vh 9vh 30vh;
+    margin: 5vh 0 5vh 0;
+  }
+  .join-network-heading {
+    width: 50vh;
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .join-network-p {
+    font-size: 15px;
+    margin-top: 2vh;
+  }
+  .join-network-button {
+    margin-top: 3vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .join-network {
+    background-color: #e5f6ff;
+    padding: 7vh 40vh 10vh 70vh;
+    margin: 5vh 0 5vh 0;
+  }
+  .join-network-button {
+    margin-top: 5vh;
+  }
+}

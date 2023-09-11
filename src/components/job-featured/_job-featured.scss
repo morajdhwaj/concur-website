@@ -1,0 +1,48 @@
+.job-featured {
+  background-color: #f2f4f8;
+  display: flex;
+  padding-bottom: 5vh;
+}
+
+.job-featured-div1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.job-featured-div2 {
+  width: 60%;
+}
+
+.job-featured-div2-heading {
+  margin: 10vh 0 5vh 0;
+}
+.job-featured-div2-p {
+  margin-top: 3vh;
+  font-size: 18px;
+}
+.job-featured-tile-div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1vh;
+}
+
+.job-featured-tile {
+  background-color: #fff;
+  width: 40vh;
+  margin: 1vh;
+}
+
+.job-featured-tile:hover {
+  background-color: #ddd;
+  width: 40vh;
+}
+.tile-heading {
+  font-size: 25px;
+}
+.tile-address {
+  margin: 10vh 0 1vh 0;
+}
+.job-featured-button {
+  margin: 5vh 0 5vh 1vh;
+}

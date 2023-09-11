@@ -16,8 +16,9 @@ const HomePage = () => {
         detail={
           ' Learn how IBM Instana helped Enento identify bugs much faster, lower existing latency and provide real-time visibility into every service request'
         }
-        button={'Register Today'}
-        image={
+        button={'Read the story'}
+        button2={'Explore concur instana'}
+        bgImage={
           "url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1600')"
         }
       />
@@ -26,8 +27,8 @@ const HomePage = () => {
         detail={
           ' IBM’s built-for-business AI and data platform is now available for free trial'
         }
-        button={'Register Today'}
-        image={
+        button={'Take a tour'}
+        bgImage={
           "url('https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1600 ')"
         }
       />
