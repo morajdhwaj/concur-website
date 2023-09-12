@@ -1,0 +1,26 @@
+.subscribe {
+  background-color: #f2f4f8;
+}
+
+.subscribe-div1 {
+  margin: 0 25vh 0 24vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-div1-div1 {
+  width: 50%;
+  padding: 2vh 0 2vh 0;
+}
+.subscribe-div1-div2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 2vh 0 2vh 0;
+}
+
+.subscribe-button {
+  width: 50vh;
+}

@@ -30,7 +30,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>
@@ -44,7 +44,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>
@@ -58,7 +58,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>
@@ -72,7 +72,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <Link href='/job-details'>See all jobs</Link>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>
@@ -86,7 +86,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>
@@ -100,7 +100,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='https://www.carbondesignsystem.com'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
         </div>
       </div>

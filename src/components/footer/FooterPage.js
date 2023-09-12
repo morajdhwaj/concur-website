@@ -11,9 +11,21 @@ const FooterPage = () => {
             <Column md={4} lg={4} sm={4}>
               <Column lg={16} md={8} sm={4} className='landing-page__banner'>
                 <h2 className='footer-h2'>Discover</h2>
-                <p className='footer-p'>Products</p>
-                <p className='footer-p'>Trials</p>
-                <p className='footer-p'>Services</p>
+                <p className='footer-p'>
+                  <a href='/#' className='footer-a'>
+                    Products
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/#' className='footer-a'>
+                    Trials
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/services' className='footer-a'>
+                    Services
+                  </a>
+                </p>
                 <p className='footer-p'>Industries</p>
                 <p className='footer-p'>IBM discount</p>
                 <p className='footer-p'>case studies</p>

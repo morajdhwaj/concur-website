@@ -1,0 +1,46 @@
+.announce-div1 {
+  background-color: #fdf4d7;
+  display: flex;
+}
+
+.announce-div1-div1 {
+  margin: 3vh 5vh 3vh 24vh;
+  width: 50%;
+}
+.announce-div1-div2 {
+  margin: 5vh 5vh 10vh 20vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.announce-div1-button {
+  width: 40vh;
+}
+
+.announce-div2 {
+  width: 100%;
+}
+.announce-div2-div1 {
+  border-top: 1px solid #bbb8c3;
+  display: flex;
+  margin-left: 24vh;
+  margin-right: 26vh;
+}
+
+.announce-div2-div1-div1 {
+  width: 25%;
+}
+
+.announce-div2-div1-div2 {
+  width: 75%;
+}
+.announce-h4 {
+  margin: 3vh 20vh 9vh 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.announce-p {
+  margin: 3vh 30vh 2vh 2vh;
+  line-height: 2.5vh;
+}

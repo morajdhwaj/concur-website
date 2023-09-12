@@ -1,0 +1,53 @@
+.job-details {
+  margin-top: 7vh;
+}
+
+.job-details-div1 {
+  display: flex;
+}
+.job-details-div1-div1 {
+  border-right: 1px solid rgb(193, 193, 193);
+
+  width: 55%;
+  padding: 5vh 20vh 5vh 24vh;
+}
+
+.job-details-div1-div2 {
+  width: 45%;
+  padding: 5vh 20vh 5vh 10vh;
+}
+.job-details-div1-div1-h3 {
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+.job-details-div1-div1-p {
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  margin-top: 1vh;
+  line-height: 2.5vh;
+  margin-bottom: 3vh;
+}
+.job-details-div1-div2-h3 {
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+
+.job-details-div1-div2-div1 {
+  display: flex;
+  margin-top: 1vh;
+}
+
+.job-details-div1-div2-button {
+  margin-top: 2vh;
+}
+.job-details-ul {
+  margin: 1vh;
+  list-style-type: disc;
+  line-height: 2.5vh;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+}
