@@ -1,10 +1,11 @@
 import React from 'react';
 import './_productsPage.scss';
+import Featured from '../../components/featured';
 
 const ProductPage = () => {
   return (
-    <div>
-      <h1 className='name'>ProductPage</h1>
+    <div className='products'>
+      <Featured />
     </div>
   );
 };

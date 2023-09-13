@@ -12,7 +12,7 @@ const FooterPage = () => {
               <Column lg={16} md={8} sm={4} className='landing-page__banner'>
                 <h2 className='footer-h2'>Discover</h2>
                 <p className='footer-p'>
-                  <a href='/#' className='footer-a'>
+                  <a href='/products' className='footer-a'>
                     Products
                   </a>
                 </p>
