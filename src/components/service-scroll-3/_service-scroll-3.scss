@@ -14,10 +14,31 @@
 .service-scroll-3-div2-div1 {
   margin: 5vh 0 5vh 0;
 }
-.service-scroll-3-div2-div2 {
-  background-color: rgb(72, 45, 112);
-}
 
 .service-scroll-3-div2-div2-h {
   font-size: 57px;
+}
+.service-scroll-3-div2-div2 {
+  display: flex;
+}
+
+.service-scroll-3-div2-div2-div1 {
+  width: 35%;
+}
+.service-scroll-3-div2-div2-div2 {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-scroll-3-div2-div2-div2-img {
+  height: 40vh;
+  width: 80vh;
+}
+
+.service-scroll-3-div2-div2-div1-p {
+  margin: 4vh 7vh 4vh 0;
+}
+.service-scroll-3-div2-div2-div1-div {
+  height: 10vh;
 }
