@@ -47,11 +47,56 @@ const FooterPage = () => {
             <Column md={4} lg={4} sm={4}>
               <Column lg={16} md={8} sm={4} className='landing-page__banner'>
                 <h2 className='footer-h2'>Connect with us</h2>
-                <p className='footer-p'> Engage IBM Consulting</p>
-                <p className='footer-p'>Support</p>
-                <p className='footer-p'>Find a Business Partner</p>
-                <p className='footer-p'>Developers</p>
-                <p className='footer-p'>Business Partners</p>
+                <p className='footer-p'>
+                  <a href='/circulars' className='footer-a'>
+                    Circulars
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/customers' className='footer-a'>
+                    Customers
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/case-studies' className='footer-a'>
+                    Case Studies
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/community' className='footer-a'>
+                    Community
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/privacy-glossary' className='footer-a'>
+                    Privacy Glossary
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/data-mapping-cost-calculator' className='footer-a'>
+                    Data mapping cost calculator
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/resources' className='footer-a'>
+                    Resources
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/webinars' className='footer-a'>
+                    Webinars
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/training' className='footer-a'>
+                    Training
+                  </a>
+                </p>
+                <p className='footer-p'>
+                  <a href='/demo' className='footer-a'>
+                    Demo
+                  </a>
+                </p>
               </Column>
             </Column>
             <Column md={4} lg={4} sm={4}>

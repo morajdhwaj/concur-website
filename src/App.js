@@ -33,6 +33,32 @@ import DataPolicy from './components/navbar/navbar-pages/DataPolicy';
 import Disclosure from './components/navbar/navbar-pages/Disclosure';
 import LGPDBrazil from './pages/solutions/solutions-pages/LGPDBrazil';
 import PDPLSouthArabia from './pages/solutions/solutions-pages/PDPLSouthArabia';
+import PrivacyRequest from './pages/products/product-pages/PrivacyRequest';
+import DigitalPolicyManagement from './pages/products/product-pages/DigitalPolicyManagement';
+import NoticeManagement from './pages/products/product-pages/NoticeManagement';
+import ConsentManagement from './pages/products/product-pages/ConsentManagement';
+import DPOStudio from './pages/products/product-pages/DPOStudio';
+import Circulars from './pages/others/Circulars';
+import Customers from './pages/others/Customers';
+import CaseStudies from './pages/others/CaseStudies';
+import Community from './pages/others/Community';
+import PrivacyGlossary from './pages/others/PrivacyGlossary';
+import DataMappingCostCalculator from './pages/others/DataMappingCostCalculator';
+import PrivacyBreachCostCalculator from './pages/others/PrivacyBreachCostCalculator';
+import Resources from './pages/others/Resources';
+import Webinars from './pages/others/Webinars';
+import Training from './pages/others/Training';
+import Demo from './pages/others/Demo';
+import DPDPA from './pages/solutions/solutions-pages/DPDPA';
+import PDPL from './pages/solutions/solutions-pages/PDPL';
+import Popia from './pages/solutions/solutions-pages/Popia';
+import Consent from './pages/solutions/solutions-pages/Consent';
+import DataDiscovery from './pages/products/product-pages/DataDiscovery';
+import DataMapping from './pages/products/product-pages/DataMapping';
+import Privacy from './pages/products/product-pages/Privacy';
+import Assessments from './pages/products/product-pages/Assessments';
+import Integrations from './pages/products/product-pages/Integrations';
+import SecurityPage from './pages/products/product-pages/SecurityPage';
 
 const App = () => {
   return (
@@ -74,6 +100,50 @@ const App = () => {
           <Route path='/legal/gdpr' element={<GDPR />} />
           <Route path='/legal/data-policy' element={<DataPolicy />} />
           <Route path='/legal/disclosure' element={<Disclosure />} />
+          <Route
+            path='/products/privacy-requests'
+            element={<PrivacyRequest />}
+          />
+          <Route
+            path='/products/digital-policy-management'
+            element={<DigitalPolicyManagement />}
+          />
+          <Route
+            path='/products/notice-management'
+            element={<NoticeManagement />}
+          />
+          <Route
+            path='/products/consent-management'
+            element={<ConsentManagement />}
+          />
+          <Route path='/products/dpo-studio' element={<DPOStudio />} />
+          <Route path='/products/data-discovery' element={<DataDiscovery />} />
+          <Route path='/products/data-mapping' element={<DataMapping />} />
+          <Route path='/products/privacy' element={<Privacy />} />
+          <Route path='/products/assessments' element={<Assessments />} />
+          <Route path='/products/integrations' element={<Integrations />} />
+          <Route path='/products/security' element={<SecurityPage />} />
+          <Route path='/circulars' element={<Circulars />} />
+          <Route path='/customers' element={<Customers />} />
+          <Route path='/case-studies' element={<CaseStudies />} />
+          <Route path='/community' element={<Community />} />
+          <Route path='/privacy-glossary' element={<PrivacyGlossary />} />
+          <Route
+            path='/data-mapping-cost-calculator'
+            element={<DataMappingCostCalculator />}
+          />
+          <Route
+            path='/privacy-breach-cost-calculator'
+            element={<PrivacyBreachCostCalculator />}
+          />
+          <Route path='/resources' element={<Resources />} />
+          <Route path='/webinars' element={<Webinars />} />
+          <Route path='/training' element={<Training />} />
+          <Route path='/demo' element={<Demo />} />
+          <Route path='/solutions/dpdpa' element={<DPDPA />} />
+          <Route path='/solutions/pdpl' element={<PDPL />} />
+          <Route path='/solutions/popia' element={<Popia />} />
+          <Route path='/solutions/consent' element={<Consent />} />
         </Routes>
       </Content>
       <FooterPage />

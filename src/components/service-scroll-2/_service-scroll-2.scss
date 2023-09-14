@@ -1,0 +1,41 @@
+.service-scroll-2 {
+  display: flex;
+  margin: 0 24vh 0 24vh;
+}
+
+.service-scroll-2-div1 {
+  width: 26%;
+  padding: 3vh;
+}
+.service-scroll-2-div2 {
+  width: 74%;
+}
+.service-scroll-2-div2 {
+  padding: 1vh 0 3vh 0;
+  width: 74%;
+  display: flex;
+  border-top: 1px solid rgb(134, 134, 134);
+  border-bottom: 1px solid rgb(134, 134, 134);
+}
+
+.service-scroll-2-div2-div1 {
+  width: 65%;
+  margin: 7vh 3vh 5vh 0;
+}
+
+.service-scroll-2-div2-div2 {
+  width: 35%;
+  margin: 5vh 5vh 5vh 5vh;
+  border-left: 1px solid rgb(207, 207, 207);
+}
+.service-scroll-2-div2-div2-a {
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+.service-scroll-2-div2-div2-a:hover {
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+}

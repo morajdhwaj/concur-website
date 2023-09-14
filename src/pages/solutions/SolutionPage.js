@@ -5,6 +5,7 @@ const SolutionPage = () => {
   return (
     <div className='solutions'>
       <h1>SolutionPage</h1>
+      <a href='/solutions/consent'>Consent</a> <br />
       <a href='/solutions/consumer'>Consumer</a> <br />
       <a href='/solutions/healthcare'>healthcare</a> <br />
       <a href='/solutions/fintech'>Fintech</a> <br />
@@ -16,6 +17,9 @@ const SolutionPage = () => {
       <a href='/solutions/b2g'>B2G</a> <br />
       <a href='/solutions/lgpd-brazil'>LGPD-brazil</a> <br />
       <a href='/solutions/pdpl-south-arabia'>PDPL-south-arabia</a> <br />
+      <a href='/solutions/dpdpa'>DPDPA</a> <br />
+      <a href='/solutions/pdpl'>PDPL</a> <br />
+      <a href='/solutions/popia'>Popia</a> <br />
     </div>
   );
 };
