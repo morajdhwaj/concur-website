@@ -5,6 +5,10 @@ import Subscribe from '../../components/subscribe';
 import ServiceScroll1 from '../../components/service-scroll-1/ServiceScroll1';
 import ServiceScroll2 from '../../components/service-scroll-2/ServiceScroll2';
 import ServiceScroll3 from '../../components/service-scroll-3/ServiceScroll3';
+import PartnerShip from '../../components/partner-ship';
+import Subscribe2 from '../../components/subscribe-2/Subscribe2';
+import Industries from '../../components/industries';
+import Studies from '../../components/studies/Studies';
 
 const Services = () => {
   return (
@@ -14,6 +18,10 @@ const Services = () => {
       <ServiceScroll1 />
       <ServiceScroll2 />
       <ServiceScroll3 />
+      <PartnerShip />
+      <Subscribe2 />
+      <Industries />
+      <Studies />
     </div>
   );
 };
