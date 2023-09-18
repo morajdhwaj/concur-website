@@ -9,6 +9,8 @@ import PartnerShip from '../../components/partner-ship';
 import Subscribe2 from '../../components/subscribe-2/Subscribe2';
 import Industries from '../../components/industries';
 import Studies from '../../components/studies/Studies';
+import TabComponent from '../../components/tabs-component/TabComponent';
+import Disclaimer from '../../components/disclaimer/Disclaimer';
 
 const Services = () => {
   return (
@@ -22,6 +24,8 @@ const Services = () => {
       <Subscribe2 />
       <Industries />
       <Studies />
+      <TabComponent />
+      <Disclaimer />
     </div>
   );
 };

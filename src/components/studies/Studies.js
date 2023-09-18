@@ -6,7 +6,7 @@ const Studies = () => {
   return (
     <div className='studies'>
       <div className='studies-div1'>
-        <h5>Roles</h5>
+        <h5>Case Studies</h5>
       </div>
 
       <div className='studies-div2'>
@@ -27,46 +27,60 @@ const Studies = () => {
             href='https://www.carbondesignsystem.com/'
             className='studies-tile'
           >
-            <h4>Clickable tile</h4>
-            <a href='/'>
-              <i class='bx bx-right-arrow-alt bx-sm' />
-            </a>
+            <img
+              src='https://picsum.photos/200/300'
+              alt='dummy'
+              className='studies-tile-img '
+            />
+            <h4 className='studies-tile-heading'>Telefonica</h4>
+            <p className='studies-tile-p'>
+              IBM solutions are transforming industries Discover the
+              extraordinary impact of IBM’s innovative technologies on diverse
+              industries. Our deep industry knowledge,
+            </p>
+            <p className='studies-tile-button'>
+              <i class='bx bx-right-arrow-alt bx-md' />
+            </p>
           </ClickableTile>
+
           <ClickableTile
             href='https://www.carbondesignsystem.com/'
             className='studies-tile'
           >
-            <h4>Clickable tile</h4>
-            <a href='/'>
-              <i class='bx bx-right-arrow-alt bx-sm' />
-            </a>
+            <img
+              src='https://picsum.photos/200/300'
+              alt='dummy'
+              className='studies-tile-img '
+            />
+            <h4 className='studies-tile-heading'>Telefonica</h4>
+            <p className='studies-tile-p'>
+              IBM solutions are transforming industries Discover the
+              extraordinary impact of IBM’s innovative technologies on diverse
+              industries. Our deep industry knowledge,
+            </p>
+            <p className='studies-tile-button'>
+              <i class='bx bx-right-arrow-alt bx-md' />
+            </p>
           </ClickableTile>
+
           <ClickableTile
             href='https://www.carbondesignsystem.com/'
             className='studies-tile'
           >
-            <h4>Clickable tile</h4>
-            <a href='/'>
-              <i class='bx bx-right-arrow-alt bx-sm' />
-            </a>
-          </ClickableTile>
-          <ClickableTile
-            href='https://www.carbondesignsystem.com/'
-            className='studies-tile'
-          >
-            <h4>Clickable tile</h4>
-            <a href='/'>
-              <i class='bx bx-right-arrow-alt bx-sm' />
-            </a>
-          </ClickableTile>
-          <ClickableTile
-            href='https://www.carbondesignsystem.com/'
-            className='studies-tile'
-          >
-            <h4>Clickable tile</h4>
-            <a href='/'>
-              <i class='bx bx-right-arrow-alt bx-sm' />
-            </a>
+            <img
+              src='https://picsum.photos/200/300'
+              alt='dummy'
+              className='studies-tile-img '
+            />
+            <h4 className='studies-tile-heading'>Telefonica</h4>
+            <p className='studies-tile-p'>
+              IBM solutions are transforming industries Discover the
+              extraordinary impact of IBM’s innovative technologies on diverse
+              industries. Our deep industry knowledge,
+            </p>
+            <p className='studies-tile-button'>
+              <i class='bx bx-right-arrow-alt bx-md' />
+            </p>
           </ClickableTile>
         </div>
       </div>

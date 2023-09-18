@@ -6,7 +6,7 @@ import { ArrowRight } from '@carbon/icons-react';
 const JoinNetwork = () => {
   return (
     <div className='join-network'>
-      <h2 className='join-network-heading'>Join our talent network</h2>
+      <h2 className='join-network-h'>Join our talent network</h2>
       <p className='join-network-p'>
         Stay up-to-date on career opportunities in Consulting that match your
         skills and interests.
