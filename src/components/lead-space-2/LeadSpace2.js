@@ -7,7 +7,7 @@ const LeadSpace2 = () => {
   return (
     <div className='lead-space2'>
       <div>
-        <h2 className='h2'>Take the next step</h2>
+        <h2 className='lead-space2-h'>Take the next step</h2>
 
         <p className='lead-space2-p'>
           Start delivering proactive, continuous application performance now.
