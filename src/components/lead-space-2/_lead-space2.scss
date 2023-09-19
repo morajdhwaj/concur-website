@@ -22,7 +22,7 @@
   margin-top: 3vh;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   .lead-space2 {
     background-color: #f4f4f4;
     display: flex;
