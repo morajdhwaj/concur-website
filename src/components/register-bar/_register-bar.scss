@@ -1,33 +1,32 @@
 .register-bar {
   background-color: #d9fbfb;
-  display: flex;
 }
 .register-bar-left {
-  width: 50%;
-  margin-left: 19vh;
-  padding: 3vh 0 3vh 0;
+  width: 100%;
+  margin-left: 10vh;
+  padding: 2vh 0 2vh 0;
 }
 
 .register-bar-right {
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: baseline;
-  justify-content: center;
+  margin-left: 10vh;
 }
 
 .register-bar-left h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
 .register-bar-left p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   padding-right: 13vh;
 }
 
 .register-bar-right Button {
-  margin-top: 3vh;
+  margin: 3vh 0 3vh 0;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -36,8 +35,143 @@
   font-size: 15px;
   padding: 1vh 1vh;
   margin-top: 3vh;
-  width: 80vh;
+  width: 100%;
 }
-.register-bar-right Button i {
+.register-bar-right-button-i {
   font-size: xx-large;
+}
+
+@media only screen and (min-width: 768px) {
+  .register-bar {
+    background-color: #d9fbfb;
+    padding: 2vh 5vh 2vh 5vh;
+  }
+  .register-bar-left {
+    width: 100%;
+
+    padding: 3vh 0 3vh 0;
+  }
+
+  .register-bar-right {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .register-bar-left h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .register-bar-left p {
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 13vh;
+  }
+
+  .register-bar-right Button {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .register-right-div-button {
+    font-size: 15px;
+    padding: 1vh 1vh;
+    margin-top: 3vh;
+    width: 80vh;
+  }
+  .register-bar-right-button-i {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .register-bar {
+    background-color: #d9fbfb;
+    display: flex;
+    padding: 2vh 5vh 2vh 5vh;
+  }
+  .register-bar-left {
+    width: 50%;
+  }
+
+  .register-bar-right {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .register-bar-left h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .register-bar-left p {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .register-bar-right Button {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .register-right-div-button {
+    font-size: 15px;
+    padding: 1vh 1vh;
+    margin-top: 3vh;
+    width: 80vh;
+  }
+  .register-bar-right-button-i {
+    font-size: xx-large;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .register-bar {
+    background-color: #d9fbfb;
+    display: flex;
+  }
+  .register-bar-left {
+    width: 50%;
+    margin-left: 19vh;
+    padding: 3vh 0 3vh 0;
+  }
+
+  .register-bar-right {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .register-bar-left h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .register-bar-left p {
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 13vh;
+  }
+
+  .register-bar-right Button {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .register-right-div-button {
+    font-size: 15px;
+    padding: 1vh 1vh;
+    margin-top: 3vh;
+    width: 80vh;
+  }
+  .register-bar-right-button-i {
+    font-size: xx-large;
+  }
 }
