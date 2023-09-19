@@ -1,7 +1,6 @@
 .hero2 {
   background-color: #eef1f6;
-  margin: 5vh 19vh 5vh 19vh;
-  display: flex;
+  margin: 5vh 5vh 5vh 5vh;
 }
 
 .hero2-div1 {
@@ -15,7 +14,85 @@
 
 .hero2-div1-div {
   display: flex;
+  flex-direction: column;
+  gap: 1vh;
   width: 77%;
   justify-content: space-between;
   margin: 3vh 0 3vh 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .hero2 {
+    background-color: #eef1f6;
+    margin: 5vh 19vh 5vh 19vh;
+    display: flex;
+  }
+
+  .hero2-div1 {
+    width: 50%;
+    margin-left: 5vh;
+  }
+
+  .hero2-div2 {
+    width: 50%;
+  }
+
+  .hero2-div1-div {
+    display: flex;
+    flex-direction: column;
+
+    width: 77%;
+    justify-content: space-between;
+    margin: 3vh 0 3vh 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero2 {
+    background-color: #eef1f6;
+    margin: 5vh 19vh 5vh 19vh;
+    display: flex;
+  }
+
+  .hero2-div1 {
+    width: 50%;
+    margin-left: 5vh;
+  }
+
+  .hero2-div2 {
+    width: 50%;
+  }
+
+  .hero2-div1-div {
+    display: flex;
+
+    width: 77%;
+    justify-content: space-between;
+    margin: 3vh 0 3vh 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .hero2 {
+    background-color: #eef1f6;
+    margin: 5vh 19vh 5vh 19vh;
+    display: flex;
+  }
+
+  .hero2-div1 {
+    width: 50%;
+    margin-left: 5vh;
+  }
+
+  .hero2-div2 {
+    width: 50%;
+  }
+
+  .hero2-div1-div {
+    display: flex;
+    flex-direction: row;
+    width: 77%;
+    justify-content: space-between;
+    margin: 3vh 0 3vh 0;
+  }
 }

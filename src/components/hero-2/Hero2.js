@@ -7,9 +7,9 @@ const Hero2 = () => {
   return (
     <div className='hero2'>
       <div className='hero2-div1'>
-        <h2 className='h2'>AIOps Solutions</h2>
+        <h2 className='hero2-div1-h'>AIOps Solutions</h2>
 
-        <p className='p'>
+        <p className='hero2-div1-p'>
           Discover how AI for IT operations deliver the insights you need to
           help drive exceptional business performance
         </p>
