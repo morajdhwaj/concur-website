@@ -7,7 +7,7 @@ const Subscribe2 = () => {
   return (
     <div className='subscribe-2'>
       <div className='subscribe-2-div1'>
-        <h5>Roles</h5>
+        <h5>Subscribe 2</h5>
       </div>
 
       <div className='subscribe-2-div2'>
