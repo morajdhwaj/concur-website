@@ -3,24 +3,98 @@
 }
 
 .subscribe-div1 {
-  margin: 0 25vh 0 24vh;
-  display: flex;
-  justify-content: space-between;
+  margin: 0 5vh 0 5vh;
 }
 
 .subscribe-div1-div1 {
-  width: 50%;
+  width: 100%;
   padding: 2vh 0 2vh 0;
 }
 .subscribe-div1-div2 {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 2vh;
   align-items: flex-end;
-  margin: 2vh 0 2vh 0;
+  margin: 5vh 0 2vh 16vh;
 }
 
 .subscribe-button {
   width: 50vh;
+}
+
+@media only screen and (min-width: 480px) {
+  .subscribe {
+    background-color: #f2f4f8;
+  }
+
+  .subscribe-div1 {
+    margin: 0 5vh 0 5vh;
+  }
+
+  .subscribe-div1-div1 {
+    width: 100%;
+    padding: 2vh 0 2vh 0;
+  }
+  .subscribe-div1-div2 {
+    margin: 2vh 10vh 2vh 10vh;
+  }
+
+  .subscribe-button {
+    width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .subscribe {
+    background-color: #f2f4f8;
+  }
+
+  .subscribe-div1 {
+    margin: 0 5vh 0 5vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe-div1-div1 {
+    width: 50%;
+    padding: 2vh 0 2vh 0;
+  }
+  .subscribe-div1-div2 {
+    width: 50%;
+    display: flex;
+
+    align-items: flex-end;
+    margin: 2vh 0 2vh 0;
+  }
+
+  .subscribe-button {
+    width: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .subscribe {
+    background-color: #f2f4f8;
+  }
+
+  .subscribe-div1 {
+    margin: 0 25vh 0 24vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe-div1-div1 {
+    width: 50%;
+    padding: 2vh 0 2vh 0;
+  }
+  .subscribe-div1-div2 {
+    width: 50%;
+    display: flex;
+    margin: 2vh 0 2vh 0;
+  }
+
+  .subscribe-button {
+    width: 50vh;
+  }
 }

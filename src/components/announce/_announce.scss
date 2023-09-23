@@ -1,20 +1,18 @@
 .announce-div1 {
   background-color: #fdf4d7;
-  display: flex;
 }
 
 .announce-div1-div1 {
-  margin: 3vh 5vh 3vh 24vh;
+  margin: 3vh 5vh 3vh 10vh;
   width: 50%;
 }
 .announce-div1-div2 {
-  margin: 5vh 5vh 10vh 20vh;
+  margin: 5vh 5vh 10vh 10vh;
   width: 50%;
   display: flex;
-  justify-content: center;
 }
 .announce-div1-button {
-  width: 40vh;
+  width: 20vh;
 }
 
 .announce-div2 {
@@ -23,24 +21,124 @@
 .announce-div2-div1 {
   border-top: 1px solid #bbb8c3;
   display: flex;
-  margin-left: 24vh;
-  margin-right: 26vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
 
 .announce-div2-div1-div1 {
-  width: 25%;
+  width: 50%;
 }
 
 .announce-div2-div1-div2 {
-  width: 75%;
+  width: 50%;
 }
 .announce-h4 {
-  margin: 3vh 20vh 9vh 0;
+  margin: 3vh;
+
   font-weight: 600;
   font-size: 15px;
 }
 
 .announce-p {
-  margin: 3vh 30vh 2vh 2vh;
+  margin: 3vh 5vh 2vh 2vh;
   line-height: 2.5vh;
+}
+
+@media only screen and (min-width: 900px) {
+  .announce-div1 {
+    background-color: #fdf4d7;
+    display: flex;
+  }
+
+  .announce-div1-div1 {
+    margin: 3vh 5vh 3vh 10vh;
+    width: 50%;
+  }
+  .announce-div1-div2 {
+    margin: 5vh 5vh 10vh 10vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .announce-div1-button {
+    width: 40vh;
+    height: 5vh;
+  }
+
+  .announce-div2 {
+    width: 100%;
+  }
+  .announce-div2-div1 {
+    border-top: 1px solid #bbb8c3;
+    display: flex;
+    margin-left: 10vh;
+    margin-right: 5vh;
+  }
+
+  .announce-div2-div1-div1 {
+    width: 25%;
+  }
+
+  .announce-div2-div1-div2 {
+    width: 75%;
+  }
+  .announce-h4 {
+    margin: 3vh 20vh 9vh 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .announce-p {
+    margin: 3vh 30vh 2vh 2vh;
+    line-height: 2.5vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .announce-div1 {
+    background-color: #fdf4d7;
+    display: flex;
+  }
+
+  .announce-div1-div1 {
+    margin: 3vh 5vh 3vh 24vh;
+    width: 50%;
+  }
+  .announce-div1-div2 {
+    margin: 5vh 5vh 10vh 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .announce-div1-button {
+    width: 40vh;
+  }
+
+  .announce-div2 {
+    width: 100%;
+  }
+  .announce-div2-div1 {
+    border-top: 1px solid #bbb8c3;
+    display: flex;
+    margin-left: 24vh;
+    margin-right: 26vh;
+  }
+
+  .announce-div2-div1-div1 {
+    width: 25%;
+  }
+
+  .announce-div2-div1-div2 {
+    width: 75%;
+  }
+  .announce-h4 {
+    margin: 3vh 20vh 9vh 0;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .announce-p {
+    margin: 3vh 30vh 2vh 2vh;
+    line-height: 2.5vh;
+  }
 }

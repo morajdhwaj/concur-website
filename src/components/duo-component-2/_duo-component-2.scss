@@ -1,0 +1,33 @@
+.duo-component-2 {
+  margin-top: 5vh;
+}
+
+.duo-component-2-div {
+  background-image: linear-gradient(
+    to right,
+    black,
+    transparent
+  ); /* Gradient from red to yellow */
+  // height: 60vh;
+  opacity: 1;
+  display: flex;
+}
+
+.duo-component-2-div1 {
+  color: #fff;
+  margin: 10vh 0 20vh 25vh;
+  width: 50%;
+}
+
+.duo-component-2-div1-h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-right: 55vh;
+}
+.duo-component-2-div1-p {
+  color: #c6c6c6;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 2vh;
+}

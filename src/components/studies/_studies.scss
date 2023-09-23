@@ -1,0 +1,53 @@
+.studies {
+  display: flex;
+  padding: 0 0 5vh 0;
+}
+
+.studies-div1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.studies-div2 {
+  width: 60%;
+}
+
+.studies-div2-heading {
+  margin: 10vh 0 5vh 0;
+  width: 60%;
+}
+.studies-div2-heading-h {
+  font-size: 60px;
+}
+.studies-div2-p {
+  margin-top: 3vh;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.studies-tile-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.studies-tile {
+  width: 40vh;
+  border: 1px solid rgb(236, 235, 235);
+}
+.studies-tile-img {
+  width: 100%;
+  height: 30vh;
+}
+
+.studies-tile-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 1vh;
+}
+.studies-tile-p {
+  margin-top: 5vh;
+}
+.studies-tile-button {
+  padding: 3vh 0 0 0;
+  color: #0062fe;
+}
