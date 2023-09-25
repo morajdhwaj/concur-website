@@ -1,16 +1,15 @@
 .partner-page {
-  display: flex;
-  padding: 0 0 5vh 0;
+  padding: 5vh;
 }
 
 .partner-page-div1 {
-  width: 33%;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 10vh;
 }
 .partner-page-div2 {
-  width: 60%;
+  width: 100%;
 }
 
 .partner-page-div2-heading {
@@ -26,16 +25,15 @@
 }
 
 .partner-page-div2-div1 {
-  display: flex;
   padding: 4vh 0 4vh 2vh;
   border-top: 1px solid rgb(198, 198, 198);
 }
 
 .partner-page-div2-div1-div1 {
-  width: 40%;
+  width: 100%;
 }
 .partner-page-div2-div1-div2 {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 3vh;
@@ -45,4 +43,105 @@
   display: flex;
   align-items: center;
   gap: 1vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .partner-page {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .partner-page-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .partner-page-div2 {
+    width: 60%;
+  }
+
+  .partner-page-div2-heading {
+    margin: 10vh 0 5vh 0;
+  }
+
+  .partner-page-div2-heading-h1 {
+    font-size: 60px;
+  }
+  .partner-page-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+  }
+
+  .partner-page-div2-div1 {
+    padding: 4vh 0 4vh 2vh;
+    border-top: 1px solid rgb(198, 198, 198);
+  }
+
+  .partner-page-div2-div1-div1 {
+    width: 100%;
+  }
+  .partner-page-div2-div1-div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .partner-page-div2-div1-div2-a {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .partner-page {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .partner-page-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .partner-page-div2 {
+    width: 60%;
+  }
+
+  .partner-page-div2-heading {
+    margin: 10vh 0 5vh 0;
+  }
+
+  .partner-page-div2-heading-h1 {
+    font-size: 60px;
+  }
+  .partner-page-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+  }
+
+  .partner-page-div2-div1 {
+    display: flex;
+    padding: 4vh 0 4vh 2vh;
+    border-top: 1px solid rgb(198, 198, 198);
+  }
+
+  .partner-page-div2-div1-div1 {
+    width: 40%;
+  }
+  .partner-page-div2-div1-div2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .partner-page-div2-div1-div2-a {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+  }
 }

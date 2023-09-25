@@ -1,0 +1,110 @@
+.contact-info-page {
+  padding: 5vh;
+}
+
+.contact-info-page-div1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.contact-info-page-div2 {
+  width: 100%;
+}
+
+.contact-info-page-div2-heading {
+  margin: 10vh 0 5vh 0;
+}
+
+.contact-info-page-div2-heading-h1 {
+  font-size: 60px;
+}
+.contact-info-page-div2-div1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-info-page-div2-div1-card {
+  border-bottom: 1px solid rgb(222, 222, 222);
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 40vh;
+  padding: 2vh 10vh 3vh 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-info-page {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .contact-info-page-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .contact-info-page-div2 {
+    width: 60%;
+  }
+
+  .contact-info-page-div2-heading {
+    margin: 10vh 0 5vh 0;
+  }
+
+  .contact-info-page-div2-heading-h1 {
+    font-size: 60px;
+  }
+  .contact-info-page-div2-div1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-info-page-div2-div1-card {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 30vh;
+    padding: 2vh 10vh 3vh 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-info-page {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .contact-info-page-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .contact-info-page-div2 {
+    width: 60%;
+  }
+
+  .contact-info-page-div2-heading {
+    margin: 10vh 0 5vh 0;
+  }
+
+  .contact-info-page-div2-heading-h1 {
+    font-size: 60px;
+  }
+  .contact-info-page-div2-div1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-info-page-div2-div1-card {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 40vh;
+    padding: 2vh 20vh 3vh 0;
+  }
+}
