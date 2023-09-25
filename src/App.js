@@ -59,6 +59,7 @@ import Privacy from './pages/products/product-pages/Privacy';
 import Assessments from './pages/products/product-pages/Assessments';
 import Integrations from './pages/products/product-pages/Integrations';
 import SecurityPage from './pages/products/product-pages/SecurityPage';
+import Partner from './pages/partner-page/Partner';
 
 const App = () => {
   return (
@@ -73,6 +74,7 @@ const App = () => {
           <Route path='/jobs' element={<JobPage />} />
           <Route path='/job-details' element={<JobDetails />} />
           <Route path='/services' element={<Services />} />
+          <Route path='/partner' element={<Partner />} />
           <Route path='/products' element={<ProductPage />} />
           <Route path='/solutions/consumer' element={<Consumer />} />
           <Route path='/solutions/healthcare' element={<Healthcare />} />
