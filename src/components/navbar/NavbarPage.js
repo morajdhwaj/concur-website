@@ -226,8 +226,8 @@ const NavbarPage = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a href='' className='nav-link'>
-              Support
+            <a href='/partner' className='nav-link'>
+              Partner
             </a>
           </li>
           <li className='nav-item'>
