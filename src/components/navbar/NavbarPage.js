@@ -30,8 +30,10 @@ const NavbarPage = () => {
   return (
     <header className=''>
       <nav>
-        <div className='logo'>
-          <a href='/'>Concur</a>
+        <div className=''>
+          <a href='/'>
+            <img src='/image/concur-logo.png' alt='' className='logo' />
+          </a>
         </div>
         <div className='toggle-menu' id='toggle-menu'>
           <i class='bx bx-grid-alt'></i>

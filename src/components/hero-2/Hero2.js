@@ -26,8 +26,9 @@ const Hero2 = () => {
       </div>
       <div className='hero2-div2'>
         <img
-          src='https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=500'
+          src='https://t3.ftcdn.net/jpg/01/59/48/58/240_F_159485891_2BAJ56o5UcbA0RG5TaUw7fcclmHv0qvt.jpg'
           alt='Laptop'
+          className='hero2-div2-img'
         />
       </div>
     </div>
