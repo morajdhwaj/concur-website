@@ -19,8 +19,6 @@ const DuoComponent = ({
     backgroundPosition: 'center',
   };
 
-  console.log(button === undefined);
-
   return (
     <div style={divStyle} className='duo-component'>
       <div className='duo-component-div'>

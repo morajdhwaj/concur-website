@@ -1,0 +1,138 @@
+.together {
+  padding: 5vh;
+}
+
+.together-div1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.together-div2 {
+  width: 100%;
+}
+
+.together-div2-div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.together-div2-div1-h1 {
+  font-size: 55px;
+}
+
+.together-div2-div2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.together-div2-div2-tile {
+  background-color: white;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15vh;
+  border-top: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+@media only screen and (min-width: 768px) {
+  .together {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .together-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .together-div2 {
+    width: 60%;
+  }
+
+  .together-div2-div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+  }
+
+  .together-div2-div1-h1 {
+    font-size: 55px;
+  }
+
+  .together-div2-div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10vh;
+  }
+
+  .together-div2-div2-tile {
+    background-color: white;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15vh;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .together {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .together-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .together-div2 {
+    width: 60%;
+    display: flex;
+  }
+
+  .together-div2-div1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+  }
+
+  .together-div2-div1-h1 {
+    font-size: 55px;
+  }
+
+  .together-div2-div2 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10vh;
+  }
+
+  .together-div2-div2-tile {
+    background-color: white;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15vh;
+    border-top: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+}

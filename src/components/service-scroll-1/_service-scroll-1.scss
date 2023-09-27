@@ -1,20 +1,87 @@
 .service-scroll-1 {
-  display: flex;
-  margin: 0 24vh 0 24vh;
+  margin: 0 5vh 0 5vh;
 }
 
 .service-scroll-1-div1 {
-  width: 26%;
+  width: 100%;
   padding: 3vh;
 }
 .service-scroll-1-div2 {
-  width: 74%;
+  width: 100%;
 }
 .service-scroll-1-div2-h {
-  margin: 3vh 2vh 3vh 0;
-  width: 60%;
+  margin: 3vh 5vh 3vh 5vh;
+  width: 100%;
 }
 .service-scroll-1-div2-p {
-  margin: 3vh 2vh 5vh 0;
-  width: 60%;
+  margin: 3vh 5vh 5vh 5vh;
+  width: 80%;
+}
+
+@media only screen and (min-width: 480px) {
+  .service-scroll-1 {
+    margin: 0 5vh 0 5vh;
+  }
+
+  .service-scroll-1-div1 {
+    width: 100%;
+    padding: 3vh;
+  }
+  .service-scroll-1-div2 {
+    width: 100%;
+  }
+  .service-scroll-1-div2-h {
+    margin: 3vh 5vh 3vh 5vh;
+    width: 100%;
+  }
+  .service-scroll-1-div2-p {
+    margin: 3vh 5vh 5vh 5vh;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .service-scroll-1 {
+    display: flex;
+    margin: 0 10vh 0 10vh;
+  }
+
+  .service-scroll-1-div1 {
+    width: 40%;
+    padding: 3vh;
+  }
+  .service-scroll-1-div2 {
+    width: 74%;
+  }
+  .service-scroll-1-div2-h {
+    margin: 3vh 2vh 3vh 0;
+    width: 60%;
+  }
+  .service-scroll-1-div2-p {
+    margin: 3vh 2vh 5vh 0;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .service-scroll-1 {
+    display: flex;
+    margin: 0 24vh 0 24vh;
+  }
+
+  .service-scroll-1-div1 {
+    width: 26%;
+    padding: 3vh;
+  }
+  .service-scroll-1-div2 {
+    width: 74%;
+  }
+  .service-scroll-1-div2-h {
+    margin: 3vh 2vh 3vh 0;
+    width: 60%;
+  }
+  .service-scroll-1-div2-p {
+    margin: 3vh 2vh 5vh 0;
+    width: 60%;
+  }
 }
