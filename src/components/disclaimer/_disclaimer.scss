@@ -4,7 +4,7 @@
 }
 
 .disclaimer-div1 {
-  width: 20%;
+  width: 10vh;
   display: flex;
   justify-content: center;
 
@@ -17,7 +17,7 @@
   width: 30%;
 }
 .disclaimer-div-div2 {
-  width: 60%;
+  width: 80%;
 }
 .disclaimer-div2-div2-p {
   font-size: 13.5px;
@@ -25,6 +25,34 @@
 }
 
 @media only screen and (min-width: 480px) {
+  .disclaimer {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .disclaimer-div1 {
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10vh;
+  }
+  .disclaimer-div2 {
+    width: 80%;
+  }
+  .disclaimer-div2-div1 {
+    width: 30%;
+  }
+  .disclaimer-div-div2 {
+    width: 100%;
+  }
+  .disclaimer-div2-div2-p {
+    font-size: 13.5px;
+    margin-bottom: 3vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .disclaimer {
     display: flex;
     padding: 0 0 5vh 0;
