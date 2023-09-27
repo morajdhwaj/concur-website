@@ -2,7 +2,7 @@ import React from 'react';
 import './_role-consult.scss';
 import { Tile } from '@carbon/react';
 
-const RoleConsult = () => {
+const   RoleConsult = () => {
   return (
     <div className='role-consult'>
       <div className='role-consult-div1'>

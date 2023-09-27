@@ -3,11 +3,10 @@
 }
 
 .duo-component-div {
-  background-image: linear-gradient(
-    to right,
-    black,
-    transparent
-  ); /* Gradient from red to yellow */
+  background-image: linear-gradient(to right,
+      black,
+      transparent);
+  /* Gradient from red to yellow */
   // height: 60vh;
   opacity: 1;
   display: flex;
@@ -25,18 +24,21 @@
   font-weight: 300;
   padding-top: 5vh;
 }
+
 .duo-div1-div-search {
   display: flex;
   width: 100%;
   justify-content: space-between;
   gap: 1vh;
   margin-top: 3vh;
+
 }
+
 .duo-div1-div-search-button {
   display: flex;
   width: 50%;
   justify-content: space-between;
-  margin-bottom: 5vh;
+
   margin-top: 2.6vh;
 }
 
@@ -46,6 +48,7 @@
   font-weight: 400;
   padding-top: 30vh;
 }
+
 .duo-div1-p {
   color: #c6c6c6;
   font-size: 20px;
@@ -62,6 +65,7 @@
   margin-top: 2vh;
   height: 10vh;
 }
+
 .duo-div1-button {
   display: flex;
   align-items: center;
@@ -70,6 +74,7 @@
   width: 40vh;
   padding: 5px 5px;
 }
+
 .duo-div1-button2 {
   display: flex;
   align-items: center;
@@ -81,9 +86,11 @@
   border: 1px solid white;
   margin-left: 2vh;
 }
+
 .duo-div1-button-h5 {
   color: #fff;
 }
+
 .duo-div1-button-i {
   font-size: 30px;
 }
@@ -108,11 +115,10 @@
   }
 
   .duo-component-div {
-    background-image: linear-gradient(
-      to right,
-      black,
-      transparent
-    ); /* Gradient from red to yellow */
+    background-image: linear-gradient(to right,
+        black,
+        transparent);
+    /* Gradient from red to yellow */
     // height: 60vh;
     opacity: 1;
     display: flex;
@@ -131,6 +137,7 @@
     padding-top: 5vh;
     margin-right: 10vh;
   }
+
   .duo-div1-div-search {
     display: flex;
     width: 100%;
@@ -138,6 +145,7 @@
     gap: 1vh;
     margin-top: 3vh;
   }
+
   .duo-div1-div-search-button {
     display: flex;
     width: 50%;
@@ -152,6 +160,7 @@
     font-weight: 400;
     padding-top: 30vh;
   }
+
   .duo-div1-p {
     color: #c6c6c6;
     font-size: 25px;
@@ -167,6 +176,7 @@
     margin-bottom: 5vh;
     margin-top: 2vh;
   }
+
   .duo-div1-button {
     display: flex;
     align-items: center;
@@ -175,6 +185,7 @@
     width: 20vh;
     padding: 5px 5px;
   }
+
   .duo-div1-button2 {
     display: flex;
     align-items: center;
@@ -186,9 +197,11 @@
     border: 1px solid white;
     margin-left: 2vh;
   }
+
   .duo-div1-butto-h5 {
     color: #fff;
   }
+
   .duo-div1-button-i {
     font-size: 30px;
   }
@@ -214,11 +227,10 @@
   }
 
   .duo-component-div {
-    background-image: linear-gradient(
-      to right,
-      black,
-      transparent
-    ); /* Gradient from red to yellow */
+    background-image: linear-gradient(to right,
+        black,
+        transparent);
+    /* Gradient from red to yellow */
     // height: 60vh;
     opacity: 1;
     display: flex;
@@ -237,6 +249,7 @@
     padding-top: 5vh;
     width: 60vh;
   }
+
   .duo-div1-div-search {
     display: flex;
     width: 100%;
@@ -244,6 +257,7 @@
     gap: 1vh;
     margin-top: 3vh;
   }
+
   .duo-div1-div-search-button {
     display: flex;
     width: 50%;
@@ -258,6 +272,7 @@
     font-weight: 400;
     padding-top: 30vh;
   }
+
   .duo-div1-p {
     color: #c6c6c6;
     font-size: 25px;
@@ -275,6 +290,7 @@
     margin-bottom: 5vh;
     margin-top: 2vh;
   }
+
   .duo-div1-button {
     display: flex;
     align-items: center;
@@ -283,6 +299,7 @@
     width: 20vh;
     padding: 5px 5px;
   }
+
   .duo-div1-button2 {
     display: flex;
     align-items: center;
@@ -294,9 +311,11 @@
     border: 1px solid white;
     margin-left: 4vh;
   }
+
   .duo-div1-button-h5 {
     color: #fff;
   }
+
   .duo-div1-button-i {
     font-size: 30px;
   }
