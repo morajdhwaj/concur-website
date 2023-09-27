@@ -3,7 +3,7 @@ import './_role-consult.scss';
 import { Link } from 'react-router-dom';
 import { Tile } from '@carbon/react';
 
-const RoleConsult = () => {
+const   RoleConsult = () => {
   return (
     <div className='role-consult'>
       <div className='role-consult-div1'>

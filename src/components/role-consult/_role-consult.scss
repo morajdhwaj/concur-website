@@ -14,7 +14,7 @@
 }
 
 .role-consult-div2-heading {
-  margin: 10vh 0 5vh 0;
+  margin: 10vh 0 5vh 3vh;
 }
 .role-consult-div2-p {
   margin-top: 3vh;
@@ -42,4 +42,108 @@
 }
 .role-consult-button {
   margin: 5vh 0 5vh 1vh;
+}
+@media only screen and (min-width: 0px) and (max-width: 500px){
+  .role-consult {
+    flex-direction: column-reverse;
+  }
+
+  .role-consult-div2{
+    width: 100%;
+    margin: 0 0 0 5vh;
+  }
+
+  .role-consult-div2-heading h1{
+    font-size: 35px;
+
+  }
+
+  .role-consult-tile-div {
+    display: grid;
+    grid-template-columns: 94% ;
+    gap: 1vh;
+  }
+
+  .role-consult-tile {
+    background-color: #fff;
+    width: 70vh;
+    margin: 1vh;
+    border-bottom: 1px solid gray;
+    padding: 0;
+    
+  }
+
+  .role-consult-tile-address {
+    margin: 10vh 0 3vh 0;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 767px){
+  .role-consult {
+    flex-direction: column-reverse;
+    
+  }
+  .role-consult-div2{
+    width: 100%;
+    margin: 0 0 0 5vh;
+  }
+  .role-consult-div2-heading h1{
+    font-size: 35px;
+
+  }
+
+  .role-consult-tile-div {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 2vh;
+  }
+
+  .role-consult-tile {
+    background-color: #fff;
+    width: 99%;
+    margin: 1vh;
+    border-bottom: 1px solid gray;
+    
+    
+  }
+
+  
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:990px){
+
+  .role-consult {
+    flex-direction: column-reverse;
+    
+  }
+  .role-consult-div2{
+    width: 100%;
+    margin: 0 0 0 5vh;
+  }
+  .role-consult-div2-heading h1{
+    font-size: 35px;
+
+  }
+
+  .role-consult-tile-div {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 2vh;
+  }
+
+  .role-consult-tile {
+    background-color: #fff;
+    width: 100%;
+    margin: 1vh;
+    border-bottom: 1px solid gray;
+    
+    
+  }
+
+
 }
