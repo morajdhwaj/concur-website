@@ -5,11 +5,13 @@ import RegisterBar from '../../components/register-bar';
 import DuoComponent from '../../components/duo-component';
 import Hero2 from '../../components/hero-2';
 import LeadSpace2 from '../../components/lead-space-2';
+import ImgTile from '../../components/img-tile';
 
 const HomePage = () => {
   return (
     <div className='main'>
       <LeadSpace />
+      <ImgTile />
       <RegisterBar />
       <DuoComponent
         heading={'Achieving real-time visibility'}
