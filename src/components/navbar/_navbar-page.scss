@@ -26,6 +26,12 @@ nav {
   font-family: 'Open Sans';
 }
 
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 .toggle-menu,
 .close-menu {
   display: none;
@@ -205,10 +211,6 @@ nav {
   .toggle-menu,
   .close-menu {
     display: block;
-  }
-
-  .toggle-menu i:hover {
-    color: #a92ec8;
   }
 
   .close-menu {
