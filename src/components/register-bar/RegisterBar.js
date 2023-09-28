@@ -15,7 +15,7 @@ const RegisterBar = () => {
       <div className=" register-bar-right">
         <Button className="register-right-div-button">
           <h5>Register Today</h5>
-          <i class='bx bx-right-arrow-alt'></i>
+          <i class='bx bx-right-arrow-alt register-bar-right-button-i'></i>
         </Button>
       </div>
     </div>

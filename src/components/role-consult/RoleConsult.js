@@ -1,6 +1,5 @@
 import React from 'react';
 import './_role-consult.scss';
-import { Link } from 'react-router-dom';
 import { Tile } from '@carbon/react';
 
 const RoleConsult = () => {
@@ -72,7 +71,7 @@ const RoleConsult = () => {
               </p>
             </div>
 
-            <Link href='/job-details'>See all jobs</Link>
+            <a href='/job-details'>See all jobs</a>
           </Tile>
           <Tile className='role-consult-tile'>
             <h3 className='role-consult-tile-heading'>

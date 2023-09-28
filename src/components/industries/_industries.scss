@@ -1,0 +1,272 @@
+.industries {
+  padding: 0 0 5vh 0;
+}
+
+.industries-div1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.industries-div2 {
+  width: 80%;
+  margin: 1vh 10vh 3vh 5vh;
+}
+
+.industries-div2-heading {
+  margin: 10vh 0 5vh 0;
+  width: 100%;
+}
+.industries-div2-heading-h {
+  font-size: 60px;
+}
+.industries-div2-p {
+  margin-top: 3vh;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.industries-tile-div {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1vh;
+}
+
+.industries-tile {
+  width: 35vh;
+  height: 20vh;
+  margin: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.industries-tile-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.industries-tile-address {
+  margin: 5vh 0 1vh 0;
+}
+.industries-button {
+  margin: 5vh 0 5vh 1vh;
+}
+
+@media only screen and (min-width: 480px) {
+  .industries {
+    padding: 0 0 5vh 0;
+  }
+
+  .industries-div1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .industries-div2 {
+    width: 80%;
+    margin: 1vh 10vh 3vh 5vh;
+  }
+
+  .industries-div2-heading {
+    margin: 10vh 0 5vh 0;
+    width: 100%;
+  }
+  .industries-div2-heading-h {
+    font-size: 60px;
+  }
+  .industries-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .industries-tile-div {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1vh;
+  }
+
+  .industries-tile {
+    width: 40vh;
+    height: 20vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .industries-tile-heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .industries-tile-address {
+    margin: 5vh 0 1vh 0;
+  }
+  .industries-button {
+    margin: 5vh 0 5vh 1vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .industries {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .industries-div1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .industries-div2 {
+    width: 70%;
+  }
+
+  .industries-div2-heading {
+    margin: 10vh 0 5vh 0;
+    width: 60%;
+  }
+  .industries-div2-heading-h {
+    font-size: 60px;
+  }
+  .industries-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .industries-tile-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vh;
+  }
+
+  .industries-tile {
+    width: 40vh;
+    height: 20vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .industries-tile-heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .industries-tile-address {
+    margin: 5vh 0 1vh 0;
+  }
+  .industries-button {
+    margin: 5vh 0 5vh 1vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .industries {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .industries-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .industries-div2 {
+    width: 60%;
+  }
+
+  .industries-div2-heading {
+    margin: 10vh 0 5vh 0;
+    width: 60%;
+  }
+  .industries-div2-heading-h {
+    font-size: 60px;
+  }
+  .industries-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .industries-tile-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vh;
+  }
+
+  .industries-tile {
+    width: 40vh;
+    height: 20vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .industries-tile-heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .industries-tile-address {
+    margin: 5vh 0 1vh 0;
+  }
+  .industries-button {
+    margin: 5vh 0 5vh 1vh;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .industries {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .industries-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .industries-div2 {
+    width: 60%;
+  }
+
+  .industries-div2-heading {
+    margin: 10vh 0 5vh 0;
+    width: 60%;
+  }
+  .industries-div2-heading-h {
+    font-size: 60px;
+  }
+  .industries-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .industries-tile-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vh;
+  }
+
+  .industries-tile {
+    width: 40vh;
+    height: 20vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .industries-tile-heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .industries-tile-address {
+    margin: 5vh 0 1vh 0;
+  }
+  .industries-button {
+    margin: 5vh 0 5vh 1vh;
+  }
+}

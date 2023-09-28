@@ -4,7 +4,7 @@
   padding-bottom: 5vh;
 }
 
-.job-featured-div1 {
+.job-featured-div1{
   width: 33%;
   display: flex;
   justify-content: center;
@@ -23,13 +23,13 @@
 }
 .job-featured-tile-div {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   gap: 1vh;
 }
 
 .job-featured-tile {
   background-color: #fff;
-  width: 40vh;
+  width: 100%;
   margin: 1vh;
 }
 
@@ -45,4 +45,106 @@
 }
 .job-featured-button {
   margin: 5vh 0 5vh 1vh;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px){
+  .job-featured{
+
+    flex-direction: column-reverse;
+  }
+  .job-featured-tile-div {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1vh;
+  }
+  .job-featured-tile {
+    background-color: #fff;
+    width: 100vh;
+    margin: 1vh;
+  }
+  .job-featured-div2 {
+    width: 100%;
+  }
+  .job-featured-div2-heading{
+    margin: 10vh 5vh 5vh 4vh;
+
+  }
+  .job-featured-div2-heading h1 {
+    font-size: 35px;
+  }
+  .job-featured-button{
+    margin: 4vh 0 2vh 3vh;
+}
+  
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 767px){
+  .job-featured{
+
+    flex-direction: column-reverse;
+  }
+  .job-featured-tile-div {
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+    gap: 1vh;
+  }
+  .job-featured-div2 {
+    width: 100%;
+  }
+
+  .job-featured-div2-heading{
+    margin: 10vh 5vh 5vh 11vh}
+
+    .job-featured-tile-div{
+      margin: 0 5vh 5vh 10vh
+
+    }
+
+    .job-featured-tile {
+      background-color: #fff;
+      width: 90%;
+      margin: 1vh;
+    }
+
+    .job-featured-button{
+      margin: 0 5vh 5vh 11vh
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+  .job-featured{
+
+    flex-direction: column-reverse;
+  }
+  .job-featured-tile-div {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1vh;
+  }
+
+  .job-featured-div2 {
+    width: 100%;
+  }
+
+  .job-featured-div2-heading{
+    margin: 10vh 5vh 5vh 11vh}
+
+    .job-featured-tile-div{
+      margin: 0 5vh 5vh 10vh
+
+    }
+    .job-featured-tile {
+      background-color: #fff;
+      width: 90%;
+      margin: 1vh;
+    }
+    .job-featured-button{
+      margin: 0 5vh 5vh 11vh
+    }
 }

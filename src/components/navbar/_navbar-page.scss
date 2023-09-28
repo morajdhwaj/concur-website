@@ -5,6 +5,7 @@ a {
 li {
   list-style: none;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -25,16 +26,19 @@ nav {
   font-family: 'Open Sans';
 }
 
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .toggle-menu,
 .close-menu {
   display: none;
 }
 
-.logo a {
-  font-size: 1.75 rem;
-  font-weight: 700;
-  color: #000;
-  font-family: 'inter';
+.logo {
+  height: 5vh;
+  width: 4vh;
 }
 
 .nav-list {
@@ -59,6 +63,7 @@ nav {
   display: flex;
   align-items: center;
 }
+
 .dropdown-icon {
   font-size: 1rem;
 }
@@ -78,6 +83,7 @@ nav {
   opacity: 1;
   border-top: 1px solid #bbb8c3;
 }
+
 .mega-menu-1 {
   color: black;
   border-right: 1px solid #bbb8c3;
@@ -110,11 +116,13 @@ nav {
   margin-bottom: 0.2rem;
   font-size: 20px;
 }
+
 .header-mega-menu-h {
   font-weight: 400;
   color: #4f4c55;
   font-size: 20px;
 }
+
 .header-mega-menu-p {
   font-weight: 300;
   color: #4f4c55;
@@ -140,6 +148,7 @@ nav {
   font-weight: 500;
   color: #000;
 }
+
 .mega-menu-link a:hover {
   color: #a92ec8;
 }
@@ -179,9 +188,11 @@ nav {
     max-width: 350px;
     overflow: hidden;
   }
+
   .dropdown:hover .mega-menu {
     height: 100%;
   }
+
   .nav-list {
     position: absolute;
     height: 100vh;
@@ -195,13 +206,12 @@ nav {
     display: block;
     transition: 0.3s;
   }
+
   .toggle-menu,
   .close-menu {
     display: block;
   }
-  .toggle-menu i:hover {
-    color: #a92ec8;
-  }
+
   .close-menu {
     margin: 1rem 1rem 1rem auto;
     background-color: #a92ec8;
@@ -210,14 +220,17 @@ nav {
     height: 32px;
     align-items: center;
   }
+
   .close-menu:hover {
     color: #632e70;
   }
+
   .close-menu i {
     line-height: 32px;
     color: #fff;
     font-size: 22px;
   }
+
   .show-menu {
     left: 0;
   }

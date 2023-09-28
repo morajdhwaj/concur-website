@@ -28,7 +28,11 @@ const FooterPage = () => {
                 </p>
                 <p className='footer-p'>Industries</p>
                 <p className='footer-p'>IBM discount</p>
-                <p className='footer-p'>case studies</p>
+                <p className='footer-p'>
+                  <a href='/case-studies' className='footer-a'>
+                    Case Studies
+                  </a>
+                </p>
                 <p className='footer-p'>Financing</p>
               </Column>
             </Column>

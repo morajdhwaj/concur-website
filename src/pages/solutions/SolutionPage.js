@@ -1,10 +1,22 @@
 import React from 'react';
 import './_solutions.scss';
+import { useNavigate } from 'react-router-dom';
 
 const SolutionPage = () => {
+  const number = 10;
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/solutions/consent', { state: { number: number } });
+  };
+
+  console.log(number);
+
   return (
     <div className='solutions'>
       <h1>SolutionPage</h1>
+      <button onClick={handleClick}>Click me</button> <br />
       <a href='/solutions/consent'>Consent</a> <br />
       <a href='/solutions/consumer'>Consumer</a> <br />
       <a href='/solutions/healthcare'>healthcare</a> <br />

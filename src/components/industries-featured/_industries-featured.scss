@@ -1,0 +1,132 @@
+.industries-featured {
+  background-color: #f4f4f4;
+  margin: 2vh 0 5vh 0;
+  padding: 1vh 10vh 4vh 10vh;
+}
+
+.industries-featured-h {
+  margin: 2vh 0 4vh 0;
+}
+
+.industries-featured-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+.industries-featured-card {
+  width: 30vh;
+  background-color: #fff;
+  padding: 0 0 3vh 0;
+  border: 1px solid rgb(195, 195, 195);
+}
+
+.industries-featured-card-img {
+  width: 100%;
+  height: 20vh;
+}
+
+.industries-featured-card-p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2vh;
+}
+
+.industries-featured-card-button {
+  margin: 2vh;
+}
+.blank-div {
+  height: 30vh;
+  background-color: gray;
+  margin: 10vh 0 10vh 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .industries-featured {
+    background-color: #f4f4f4;
+    margin: 2vh 0 5vh 0;
+    padding: 1vh 15vh 4vh 15vh;
+  }
+
+  .industries-featured-h {
+    margin: 2vh 0 4vh 0;
+  }
+
+  .industries-featured-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+  }
+
+  .industries-featured-card {
+    width: 48vh;
+    background-color: #fff;
+    padding: 0 0 3vh 0;
+    border: 1px solid rgb(195, 195, 195);
+  }
+
+  .industries-featured-card-img {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .industries-featured-card-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2vh;
+  }
+
+  .industries-featured-card-button {
+    margin: 2vh;
+  }
+  .blank-div {
+    height: 30vh;
+    background-color: gray;
+    margin: 10vh 0 10vh 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .industries-featured {
+    background-color: #f4f4f4;
+    margin: 2vh 0 5vh 0;
+    padding: 1vh 25vh 4vh 25vh;
+  }
+
+  .industries-featured-h {
+    margin: 2vh 0 4vh 0;
+  }
+
+  .industries-featured-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+  }
+
+  .industries-featured-card {
+    width: 48vh;
+    background-color: #fff;
+    padding: 0 0 3vh 0;
+    border: 1px solid rgb(195, 195, 195);
+  }
+
+  .industries-featured-card-img {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .industries-featured-card-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2vh;
+  }
+
+  .industries-featured-card-button {
+    margin: 2vh;
+  }
+  .blank-div {
+    height: 30vh;
+    background-color: gray;
+    margin: 10vh 0 10vh 0;
+  }
+}

@@ -1,9 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef, useState } from 'react';
 import './_navbar-page.scss';
+import { ClickableTile } from '@carbon/react';
 
 const NavbarPage = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [hamburger, setHamburger] = useState(false);
   const megaMenuRef = useRef(null);
 
   const handleToggleMenu = () => {
@@ -27,19 +28,30 @@ const NavbarPage = () => {
       document.removeEventListener('mousedown', handleOutsideClick);
     };
   }, []);
+
+  const handleHamburger = () => {
+    setHamburger(!hamburger);
+  };
+
+  console.log(hamburger);
+
   return (
     <header className=''>
       <nav>
-        <div className='logo'>
-          <a href='/'>Concur</a>
+        <div className='hamburger'>
+          <a href='/'>
+            <img src='/image/concur-logo.png' alt='' className='logo' />
+          </a>
+          <div className='toggle-menu' id='toggle-menu'>
+            <i class='bx bxs-grid bx-md' onClick={handleHamburger}></i>
+          </div>
         </div>
-        <div className='toggle-menu' id='toggle-menu'>
-          <i class='bx bx-grid-alt'></i>
-        </div>
+
         <ul className='nav-list' id='nav-menu'>
           <div className='close-menu' id='close-menu'>
             <i class='bx bx-x'></i>
           </div>
+
           <li className='nav-item'>
             <a href='/solutions' className='nav-link'>
               Solution
@@ -162,7 +174,7 @@ const NavbarPage = () => {
                       <i class='bx bx-user-voice'></i>
                     </div>
                     <div className='mega-menu-link'>
-                      <a href='#'>learn and apply</a>
+                      <a href='/'>learn and apply</a>
                       <p>Learn the basic user interface</p>
                     </div>
                   </li>
@@ -221,13 +233,13 @@ const NavbarPage = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a href='' className='nav-link'>
+            <a href='/' className='nav-link'>
               About
             </a>
           </li>
           <li className='nav-item'>
-            <a href='' className='nav-link'>
-              Support
+            <a href='/partner' className='nav-link'>
+              Partner
             </a>
           </li>
           <li className='nav-item'>
@@ -237,6 +249,22 @@ const NavbarPage = () => {
           </li>
         </ul>
       </nav>
+      {hamburger === true && (
+        <div>
+          <ClickableTile href='/products'>
+            <p>Products</p>
+          </ClickableTile>
+          <ClickableTile href='/solutions'>
+            <p>solutions</p>
+          </ClickableTile>
+          <ClickableTile href='/reports'>
+            <p>Report</p>
+          </ClickableTile>
+          <ClickableTile href='/jobs'>
+            <p>Jobs</p>
+          </ClickableTile>
+        </div>
+      )}
     </header>
   );
 };
