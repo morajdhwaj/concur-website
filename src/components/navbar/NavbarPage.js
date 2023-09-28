@@ -39,12 +39,12 @@ const NavbarPage = () => {
     <header className=''>
       <nav>
         <div className='hamburger'>
-          <a href='/'>
-            <img src='/image/concur-logo.png' alt='' className='logo' />
-          </a>
           <div className='toggle-menu' id='toggle-menu'>
             <i class='bx bxs-grid bx-md' onClick={handleHamburger}></i>
           </div>
+          <a href='/'>
+            <img src='/image/concur-logo.png' alt='' className='logo' />
+          </a>
         </div>
 
         <ul className='nav-list' id='nav-menu'>
@@ -250,7 +250,7 @@ const NavbarPage = () => {
         </ul>
       </nav>
       {hamburger === true && (
-        <div>
+        <div className='dropdown-menu'>
           <ClickableTile href='/products'>
             <p>Products</p>
           </ClickableTile>

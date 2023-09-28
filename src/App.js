@@ -60,6 +60,7 @@ import Assessments from './pages/products/product-pages/Assessments';
 import Integrations from './pages/products/product-pages/Integrations';
 import SecurityPage from './pages/products/product-pages/SecurityPage';
 import Partner from './pages/partner-page/Partner';
+import Error404 from './components/error-404/Error404';
 
 const App = () => {
   return (
@@ -68,6 +69,7 @@ const App = () => {
       <Content>
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path='/*' element={<Error404 />} />
           <Route path='/solutions' element={<SolutionPage />} />
           <Route path='/products' element={<ProductPage />} />
           <Route path='/report' element={<ReportPage />} />
