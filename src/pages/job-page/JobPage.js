@@ -17,7 +17,7 @@ const JobPage = () => {
           "url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1600')"
         }
         image={
-          "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=500'"
+          "https://img.freepik.com/free-photo/close-up-adorable-kitten-outdoors_23-2150782409.jpg?size=626&ext=jpg&ga=GA1.1.802550660.1695817924&semt=sph"
         }
         paragraph={
           "Help businesses accelerate their multicloud journey by combining Red Hats flexible, hybrid cloud portfolio with our technology and open ecosystem of strategic partners"
