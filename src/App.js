@@ -59,6 +59,7 @@ import Privacy from './pages/products/product-pages/Privacy';
 import Assessments from './pages/products/product-pages/Assessments';
 import Integrations from './pages/products/product-pages/Integrations';
 import SecurityPage from './pages/products/product-pages/SecurityPage';
+import Getstarted from "./components/getStarted/Gatstarted"
 
 const App = () => {
   return (
@@ -144,6 +145,7 @@ const App = () => {
           <Route path='/solutions/pdpl' element={<PDPL />} />
           <Route path='/solutions/popia' element={<Popia />} />
           <Route path='/solutions/consent' element={<Consent />} />
+          <Route path='/getstart' element={<Getstarted />} />
         </Routes>
       </Content>
       <FooterPage />
