@@ -1,0 +1,95 @@
+.privacy-glossary {
+  display: flex;
+  margin: 7vh 28vh 0 28vh;
+  padding: 15vh 0 15vh 0;
+}
+
+.privacy-glossary-div1 {
+  width: 50%;
+  margin: 2vh 10vh 2vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.privacy-glossary-div1-h {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.privacy-glossary-div1-search {
+  display: flex;
+  align-items: center;
+  gap: 3vh;
+  width: 50vh;
+}
+
+.privacy-glossary-div1-search-input {
+  width: 40vh;
+}
+
+.privacy-glossary-div1-search-button {
+  width: 10vh;
+}
+.privacy-glossary-div2 {
+  width: 50%;
+}
+
+.alphabet {
+  margin: 10vh 28vh 10vh 28vh;
+}
+
+.alphabet-list {
+  display: flex;
+  gap: 1vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.alphabet-card {
+  margin: 0;
+  border: 1px solid rgb(201, 201, 201);
+  width: fit-content;
+  padding: 0 1vh 0 1vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alphabet-card:hover {
+  border: 1px solid blue;
+}
+
+.alphabet-link-card {
+  padding: 5vh 0 5vh 0;
+  display: flex;
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+.alphabet-link-card-div1 {
+  width: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.alphabet-link-card-div1-h {
+  width: 5%;
+  font-size: 70px;
+  font-weight: 700;
+}
+.alphabet-link-card-div2 {
+  width: 95%;
+  margin: 2vh 0 2vh 0;
+  display: flex;
+  gap: 2vh;
+  flex-wrap: wrap;
+}
+.alphabet-link-card-div2-a {
+  width: 40vh;
+  font-size: 20px;
+  color: gray;
+  display: flex;
+  gap: 3vh;
+  align-items: center;
+}
+.alphabet-link-card-div2-a-h {
+  font-size: 20px;
+  color: BLACK;
+}

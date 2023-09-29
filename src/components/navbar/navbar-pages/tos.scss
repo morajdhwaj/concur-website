@@ -1,3 +1,147 @@
 .tos {
-  background-color: red;
+  margin: 7vh 0 0 0;
+}
+
+.tos-div1 {
+  padding: 5vh 0 5vh 5vh;
+  border-bottom: 1px solid gray;
+  border-style: dotted;
+}
+
+.tos-div1-h {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.tos-div2 {
+  padding: 0 0 5vh 0;
+}
+
+.tos-div2-div1 {
+  width: 100%;
+  display: flex;
+  margin: 2vh 0 0 5vh;
+}
+.tos-div2-div1-h {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.tos-div2-div2 {
+  width: 80%;
+  margin: 5vh;
+}
+
+.tos-div2-div2-h {
+  margin: 2vh 0 2vh 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.tos-div2-div2-p {
+  margin-top: 3vh;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .tos {
+    margin: 7vh 0 0 0;
+  }
+
+  .tos-div1 {
+    padding: 5vh 0 5vh 10vh;
+    border-bottom: 1px solid gray;
+    border-style: dotted;
+  }
+
+  .tos-div1-h {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .tos-div2 {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .tos-div2-div1 {
+    width: 20%;
+    display: flex;
+    margin: 2vh 0 0 10vh;
+  }
+  .tos-div2-div1-h {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .tos-div2-div2 {
+    width: 60%;
+    margin: 0;
+  }
+
+  .tos-div2-div2-h {
+    margin: 2vh 0 2vh 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tos-div2-div2-p {
+    margin-top: 3vh;
+    font-size: 16px;
+  }
+  .tos--div2-tile-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .tos {
+    margin: 7vh 0 0 0;
+  }
+
+  .tos-div1 {
+    padding: 5vh 0 5vh 25vh;
+    border-bottom: 1px solid gray;
+    border-style: dotted;
+  }
+
+  .tos-div1-h {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .tos-div2 {
+    display: flex;
+    padding: 0 0 5vh 0;
+  }
+
+  .tos-div2-div1 {
+    width: 20%;
+    display: flex;
+    margin: 2vh 0 0 25vh;
+  }
+  .tos-div2-div1-h {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .tos-div2-div2 {
+    width: 60%;
+    margin: 0vh;
+  }
+
+  .tos-div2-div2-h {
+    margin: 2vh 0 2vh 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .tos-div2-div2-p {
+    margin-top: 3vh;
+    font-size: 16px;
+  }
+  .tos--div2-tile-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vh;
+  }
 }

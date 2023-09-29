@@ -61,6 +61,7 @@ import Integrations from './pages/products/product-pages/Integrations';
 import SecurityPage from './pages/products/product-pages/SecurityPage';
 import Partner from './pages/partner-page/Partner';
 import Error404 from './components/error-404/Error404';
+import GlossaryTerm from './components/glossary-term/GlossaryTerm';
 
 const App = () => {
   return (
@@ -132,6 +133,7 @@ const App = () => {
           <Route path='/case-studies' element={<CaseStudies />} />
           <Route path='/community' element={<Community />} />
           <Route path='/privacy-glossary' element={<PrivacyGlossary />} />
+          <Route path='/privacy-glossary/term' element={<GlossaryTerm />} />
           <Route
             path='/data-mapping-cost-calculator'
             element={<DataMappingCostCalculator />}
