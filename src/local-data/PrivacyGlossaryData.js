@@ -5,26 +5,22 @@ export const PrivacyGlossaryData = [
       {
         term: 'A career 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Article 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Article 3',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Article 4',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -34,14 +30,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'b character',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'b character 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -51,14 +45,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'C example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'C example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -69,14 +61,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'D example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'D example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -87,14 +77,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'E example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'E example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -104,14 +92,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'F example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'F example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -121,14 +107,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'G example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'G example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -138,14 +122,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'H example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'H example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -155,14 +137,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'I example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'I example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -173,14 +153,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'J example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'J example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -190,14 +168,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'K example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'K example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -207,14 +183,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'L example 1',
         termURL: ' article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'L example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -224,14 +198,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'm example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'm example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -241,14 +213,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'N example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'N example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -258,14 +228,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'O example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'O example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -275,14 +243,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'P example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'P example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -292,14 +258,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'Q example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Q example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -309,14 +273,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'R example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'R example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -326,14 +288,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'S example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'S example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -343,14 +303,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'T example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'T example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -360,14 +318,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'U example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'U example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -377,14 +333,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'V example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'V example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -394,14 +348,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'W example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'W example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -411,14 +363,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'X example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'X example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -428,14 +378,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'Y example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Y example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },
@@ -445,14 +393,12 @@ export const PrivacyGlossaryData = [
       {
         term: 'Z example 1',
         termURL: 'article-1',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
       {
         term: 'Z example 2',
         termURL: 'article-2',
-        termDescription:
-          '<h2> This is sample rich text file</h2> <p> Some description of paragraph will come here </p>',
+        description: 'Some description of paragraph will come here',
       },
     ],
   },

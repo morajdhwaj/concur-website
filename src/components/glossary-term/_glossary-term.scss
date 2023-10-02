@@ -1,3 +1,143 @@
 .glossary-term {
-  margin: 10vh 20vh 5vh 20vh;
+  margin: 15vh 5vh 5vh 5vh;
+}
+
+.glossary-term-div1 {
+  width: 100%;
+}
+.glossary-term-div1-h {
+  font-weight: 600;
+}
+
+.glossary-term-div2 {
+  width: 100%;
+}
+
+.glossary-term-div2-a {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  margin-bottom: 2vh;
+  color: black;
+}
+
+.glossary-term-div2-a-p {
+  font-weight: 700;
+}
+
+.glossary-term-div2-div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin: 0 0 3vh 0;
+}
+
+.glossary-term-div2-term {
+  font-size: 30px;
+  font-weight: 600;
+}
+.glossary-term-div2-h {
+  font-size: 25px;
+}
+.glossary-term-div2-p {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .glossary-term {
+    margin: 15vh 13vh 5vh 13vh;
+    display: flex;
+  }
+
+  .glossary-term-div1 {
+    width: 14%;
+  }
+  .glossary-term-div1-h {
+    font-weight: 600;
+  }
+
+  .glossary-term-div2 {
+    width: 84%;
+  }
+
+  .glossary-term-div2-a {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 2vh;
+    color: black;
+  }
+
+  .glossary-term-div2-a-p {
+    font-weight: 700;
+  }
+
+  .glossary-term-div2-div1 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 0 0 3vh 0;
+  }
+
+  .glossary-term-div2-term {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .glossary-term-div2-h {
+    font-size: 25px;
+  }
+  .glossary-term-div2-p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .glossary-term {
+    margin: 15vh 25vh 5vh 28vh;
+    display: flex;
+  }
+
+  .glossary-term-div1 {
+    width: 14%;
+  }
+  .glossary-term-div1-h {
+    font-weight: 600;
+  }
+
+  .glossary-term-div2 {
+    width: 84%;
+  }
+
+  .glossary-term-div2-a {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    margin-bottom: 2vh;
+    color: black;
+  }
+
+  .glossary-term-div2-a-p {
+    font-weight: 700;
+  }
+
+  .glossary-term-div2-div1 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 0 0 3vh 0;
+  }
+
+  .glossary-term-div2-term {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .glossary-term-div2-h {
+    font-size: 25px;
+  }
+  .glossary-term-div2-p {
+    font-size: 20px;
+  }
 }
