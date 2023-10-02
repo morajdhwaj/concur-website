@@ -83,14 +83,13 @@
   .lead-space {
     display: flex;
     flex-direction: row;
-
     font-family: 'Open Sans';
-    padding-top: 1vh;
-    margin-bottom: 3vh;
+
+    padding: 5vh 0 5vh 0;
   }
   .left-div {
     width: 50%;
-    margin-left: 19vh;
+    margin: 0 25vh 0 25vh;
   }
 
   .right-div {
@@ -107,7 +106,7 @@
   .left-div p {
     margin-top: 19vh;
     font-size: 25px;
-    padding-right: 35vh;
+    padding-right: 20vh;
     color: #525252;
   }
   .right-div-button {

@@ -62,6 +62,7 @@ import SecurityPage from './pages/products/product-pages/SecurityPage';
 import Partner from './pages/partner-page/Partner';
 import Error404 from './components/error-404/Error404';
 import GlossaryTerm from './components/glossary-term/GlossaryTerm';
+import Component1 from './pages/component-page/Component1';
 
 const App = () => {
   return (
@@ -78,6 +79,7 @@ const App = () => {
           <Route path='/job-details' element={<JobDetails />} />
           <Route path='/services' element={<Services />} />
           <Route path='/partner' element={<Partner />} />
+          <Route path='/component1' element={<Component1 />} />
           <Route path='/products' element={<ProductPage />} />
           <Route path='/solutions/consumer' element={<Consumer />} />
           <Route path='/solutions/healthcare' element={<Healthcare />} />
