@@ -3,9 +3,7 @@
 }
 
 .duo-component-div {
-  background-image: linear-gradient(to right,
-      black,
-      transparent);
+  background-image: linear-gradient(to right, black, transparent);
   /* Gradient from red to yellow */
   // height: 60vh;
   opacity: 1;
@@ -14,7 +12,7 @@
 
 .duo-div1 {
   color: #fff;
-  margin-left: 10vh;
+  margin: 0 0 0 25vh;
   width: 50%;
 }
 
@@ -31,7 +29,6 @@
   justify-content: space-between;
   gap: 1vh;
   margin-top: 3vh;
-
 }
 
 .duo-div1-div-search-button {
@@ -110,15 +107,12 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 500px) {
-
   .duo-component {
     margin-top: 5vh;
   }
 
   .duo-component-div {
-    background-image: linear-gradient(to right,
-        black,
-        transparent);
+    background-image: linear-gradient(to right, black, transparent);
     /* Gradient from red to yellow */
     // height: 60vh;
     opacity: 1;
@@ -132,7 +126,6 @@
     margin: 0 5vh;
     width: 85%;
   }
-
 
   .duo-div1-h2 {
     color: #fff;
@@ -148,7 +141,6 @@
     padding-top: 10vh;
   }
 
-
   .duo-div1-div-search {
     display: flex;
     width: 100%;
@@ -167,7 +159,6 @@
     max-width: 100%;
   }
 
-
   .duo-div2 {
     color: #fff;
 
@@ -181,21 +172,15 @@
     height: 100%;
     width: 100%;
   }
-
-
-
 }
 
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-
   .duo-component {
     margin-top: 5vh;
   }
 
   .duo-component-div {
-    background-image: linear-gradient(to right,
-        black,
-        transparent);
+    background-image: linear-gradient(to right, black, transparent);
     /* Gradient from red to yellow */
     // height: 60vh;
     opacity: 1;
@@ -208,7 +193,6 @@
     margin: 0 5vh;
     width: 85%;
   }
-
 
   .duo-div1-h2 {
     color: #fff;
@@ -224,7 +208,6 @@
     padding-top: 10vh;
   }
 
-
   .duo-div1-div-search {
     display: flex;
     width: 100%;
@@ -243,7 +226,6 @@
     max-width: 100%;
   }
 
-
   .duo-div2 {
     color: #fff;
 
@@ -257,13 +239,9 @@
     height: 100%;
     width: 100%;
   }
-
-
-
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1000px) {
-
   .duo-div1-detail {
     color: #c6c6c6;
     font-size: 20px;
@@ -277,7 +255,6 @@
     justify-content: space-between;
     gap: 1vh;
     margin-top: 3vh;
-
   }
 
   .duo-div1-div-search-button {
@@ -299,5 +276,115 @@
 
     margin-right: 5vh;
     width: 85%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .duo-component {
+    margin-top: 5vh;
+  }
+
+  .duo-component-div {
+    background-image: linear-gradient(to right, black, transparent);
+    /* Gradient from red to yellow */
+    // height: 60vh;
+    opacity: 1;
+    display: flex;
+  }
+
+  .duo-div1 {
+    color: #fff;
+    margin: 0 0 0 25vh;
+    width: 50%;
+  }
+
+  .duo-div1-h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 5vh;
+  }
+
+  .duo-div1-div-search {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    gap: 1vh;
+    margin-top: 3vh;
+  }
+
+  .duo-div1-div-search-button {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: flex-end;
+    // margin-top: 2.3vh;
+  }
+
+  .duo-div1-detail {
+    color: #c6c6c6;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30vh;
+  }
+
+  .duo-div1-p {
+    color: #c6c6c6;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 5vh;
+  }
+
+  .duo-div1-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    height: 10vh;
+  }
+
+  .duo-div1-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    width: 40vh;
+    padding: 5px 5px;
+  }
+
+  .duo-div1-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    width: 40vh;
+    padding: 5px 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 2vh;
+  }
+
+  .duo-div1-button-h5 {
+    color: #fff;
+  }
+
+  .duo-div1-button-i {
+    font-size: 30px;
+  }
+
+  .duo-div2 {
+    color: #fff;
+
+    margin: 5.5vh;
+    width: 50%;
+  }
+
+  .duo-div2-img {
+    color: #fff;
+
+    height: 100%;
+    width: 75%;
   }
 }

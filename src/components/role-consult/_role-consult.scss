@@ -43,24 +43,23 @@
 .role-consult-button {
   margin: 5vh 0 5vh 1vh;
 }
-@media only screen and (min-width: 0px) and (max-width: 500px){
+@media only screen and (min-width: 0px) and (max-width: 500px) {
   .role-consult {
     flex-direction: column-reverse;
   }
 
-  .role-consult-div2{
+  .role-consult-div2 {
     width: 100%;
     margin: 0 0 0 5vh;
   }
 
-  .role-consult-div2-heading h1{
+  .role-consult-div2-heading h1 {
     font-size: 35px;
-
   }
 
   .role-consult-tile-div {
     display: grid;
-    grid-template-columns: 94% ;
+    grid-template-columns: 94%;
     gap: 1vh;
   }
 
@@ -70,29 +69,23 @@
     margin: 1vh;
     border-bottom: 1px solid gray;
     padding: 0;
-    
   }
 
   .role-consult-tile-address {
     margin: 10vh 0 3vh 0;
   }
-
-
 }
 
-
-@media only screen and (min-width: 501px) and (max-width: 767px){
+@media only screen and (min-width: 501px) and (max-width: 767px) {
   .role-consult {
     flex-direction: column-reverse;
-    
   }
-  .role-consult-div2{
+  .role-consult-div2 {
     width: 100%;
     margin: 0 0 0 5vh;
   }
-  .role-consult-div2-heading h1{
+  .role-consult-div2-heading h1 {
     font-size: 35px;
-
   }
 
   .role-consult-tile-div {
@@ -106,28 +99,19 @@
     width: 99%;
     margin: 1vh;
     border-bottom: 1px solid gray;
-    
-    
   }
-
-  
-
 }
 
-
-@media only screen and (min-width: 768px) and (max-width:990px){
-
+@media only screen and (min-width: 768px) and (max-width: 990px) {
   .role-consult {
     flex-direction: column-reverse;
-    
   }
-  .role-consult-div2{
+  .role-consult-div2 {
     width: 100%;
     margin: 0 0 0 5vh;
   }
-  .role-consult-div2-heading h1{
+  .role-consult-div2-heading h1 {
     font-size: 35px;
-
   }
 
   .role-consult-tile-div {
@@ -141,9 +125,52 @@
     width: 100%;
     margin: 1vh;
     border-bottom: 1px solid gray;
-    
-    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .role-consult {
+    display: flex;
+    padding: 0 0 5vh 0;
   }
 
+  .role-consult-div1 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  .role-consult-div2 {
+    width: 60%;
+  }
 
+  .role-consult-div2-heading {
+    margin: 10vh 0 5vh 3vh;
+  }
+  .role-consult-div2-p {
+    margin-top: 3vh;
+    font-size: 18px;
+  }
+  .role-consult-tile-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vh;
+  }
+
+  .role-consult-tile {
+    background-color: #fff;
+    width: 30vh;
+    border-bottom: 1px solid gray;
+  }
+
+  .role-consult-tile-heading {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .role-consult-tile-address {
+    margin: 5vh 0 1vh 0;
+  }
+  .role-consult-button {
+    margin: 5vh 0 5vh 1vh;
+  }
 }

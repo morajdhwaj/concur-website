@@ -1,37 +1,204 @@
 .resoureses {
+  // background-color: blue;
+  display: flex;
+  // justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.resoureses_div2 {
+  width: 67%;
+}
+
+.resoureses-div1 {
+  // background-color: brown;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.resoureses-div2-heading h1 {
+  font-size: 50px;
+  padding: 5vh 0 5vh 0;
+}
+
+.resoureses_tile_div {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100%;
+  max-width: 100%;
+  // gap: 1vh;
+}
+
+.resoureses_tile {
+  // background-color: cadetblue;solid
+  border: 0.5px solid rgb(237, 237, 237);
+  outline: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resoureses_tile_heading {
+  padding-bottom: 7vh;
+}
+
+.resoureses_tile_paragraph {
+  padding-bottom: 7vh;
+}
+
+.resoureses_tile_icon {
+  left: 0%;
+  bottom: 0%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .resoureses {
+    background-color: blue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resoureses_div2 {
+    width: 100%;
+  }
+
+  .resoureses-div1 {
+    // background-color: brown;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+
+  .resoureses-div2-heading h1 {
+    font-size: 50px;
+    padding: 5vh 0 5vh 3vh;
+  }
+
+  .resoureses_tile_div {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    max-width: 100%;
+    // gap: 1vh;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  .resoureses {
+    background-color: rgb(229, 145, 255);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resoureses_div2 {
+    width: 100%;
+  }
+
+  .resoureses-div1 {
+    // background-color: brown;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+
+  .resoureses-div2-heading h1 {
+    font-size: 50px;
+    padding: 5vh 0 5vh 5vh;
+  }
+
+  .resoureses_tile_div {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    // gap: 1vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+  .resoureses {
+    background-color: rgba(212, 255, 0, 0.89);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .resoureses_div2 {
+    width: 100%;
+  }
+
+  .resoureses-div1 {
+    // background-color: brown;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+
+  .resoureses-div2-heading h1 {
+    font-size: 50px;
+    padding: 5vh 0 5vh 6vh;
+  }
+
+  .resoureses_tile_div {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    // gap: 1vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .resoureses {
     // background-color: blue;
     display: flex;
     // justify-content: center;
     padding: 0;
     margin: 0;
-}
+  }
 
-.resoureses_div2 {
+  .resoureses_div2 {
     width: 67%;
-}
+  }
 
-.resoureses-div1 {
+  .resoureses-div1 {
     // background-color: brown;
     width: 33%;
     display: flex;
     justify-content: center;
     margin-top: 5vh;
-}
+  }
 
-.resoureses-div2-heading h1 {
+  .resoureses-div2-heading h1 {
     font-size: 50px;
     padding: 5vh 0 5vh 0;
-}
+  }
 
-.resoureses_tile_div {
+  .resoureses_tile_div {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 27% 27% 27%;
     width: 100%;
     max-width: 100%;
     // gap: 1vh;
-}
+  }
 
-.resoureses_tile {
+  .resoureses_tile {
     // background-color: cadetblue;solid
     border: 0.5px solid rgb(237, 237, 237);
     outline: none;
@@ -39,133 +206,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+  }
 
-.resoureses_tile_heading {
+  .resoureses_tile_heading {
     padding-bottom: 7vh;
-}
+  }
 
-.resoureses_tile_paragraph {
+  .resoureses_tile_paragraph {
     padding-bottom: 7vh;
-}
+  }
 
-.resoureses_tile_icon {
+  .resoureses_tile_icon {
     left: 0%;
     bottom: 0%;
-}
-
-@media only screen and (min-width: 0px) and (max-width: 500px) {
-    .resoureses {
-        background-color: blue;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .resoureses_div2 {
-        width: 100%;
-    }
-
-    .resoureses-div1 {
-        // background-color: brown;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 5vh;
-    }
-
-    .resoureses-div2-heading h1 {
-        font-size: 50px;
-        padding: 5vh 0 5vh 3vh;
-    }
-
-    .resoureses_tile_div {
-        display: grid;
-        grid-template-columns: 100%;
-        width: 100%;
-        max-width: 100%;
-        // gap: 1vh;
-    }
-
-}
-
-@media only screen and (min-width: 501px) and (max-width: 767px) {
-    .resoureses {
-        background-color: rgb(229, 145, 255);
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .resoureses_div2 {
-        width: 100%;
-    }
-
-    .resoureses-div1 {
-        // background-color: brown;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 5vh;
-    }
-
-    .resoureses-div2-heading h1 {
-        font-size: 50px;
-        padding: 5vh 0 5vh 5vh;
-    }
-
-    .resoureses_tile_div {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        width: 100%;
-        max-width: 100%;
-        justify-content: center;
-        // gap: 1vh;
-    }
-
-}
-
-@media only screen and (min-width: 768px) and (max-width: 990px) {
-    .resoureses {
-        background-color: rgba(212, 255, 0, 0.89);
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-    }
-
-
-    .resoureses_div2 {
-        width: 100%;
-    }
-
-    .resoureses-div1 {
-        // background-color: brown;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 5vh;
-    }
-
-    .resoureses-div2-heading h1 {
-        font-size: 50px;
-        padding: 5vh 0 5vh 6vh;
-    }
-
-    .resoureses_tile_div {
-        display: grid;
-        grid-template-columns: 30% 30% 30%;
-        width: 100%;
-        max-width: 100%;
-        justify-content: center;
-        // gap: 1vh;
-    }
-
+  }
 }
