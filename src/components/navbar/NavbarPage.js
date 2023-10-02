@@ -233,8 +233,8 @@ const NavbarPage = () => {
             </a>
           </li>
           <li className='nav-item'>
-            <a href='/' className='nav-link'>
-              About
+            <a href='/case-studies' className='nav-link'>
+              Case studies
             </a>
           </li>
           <li className='nav-item'>
@@ -245,6 +245,11 @@ const NavbarPage = () => {
           <li className='nav-item'>
             <a href='/jobs' className='nav-link'>
               Jobs
+            </a>
+          </li>
+          <li className='nav-item'>
+            <a href='/services' className='nav-link'>
+              Services
             </a>
           </li>
         </ul>
