@@ -137,7 +137,9 @@ const FooterPage = () => {
         <Grid className='bottom-item'>
           <p className='bottom-item-p'>Contact</p>
           <p className='bottom-item-p'>Privacy</p>
-          <p className='bottom-item-p'>Terms of use</p>
+          <a href='/legal/term-of-service' className='bottom-item-p'>
+            <p className='bottom-item-p'>Terms of service</p>
+          </a>
           <p className='bottom-item-p'>Accessibility</p>
           <p className='bottom-item-p'> Cookie Preferences</p>
         </Grid>

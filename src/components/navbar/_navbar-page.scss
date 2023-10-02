@@ -29,8 +29,9 @@ nav {
 .hamburger {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-left: 3vh;
 }
+
 .toggle-menu,
 .close-menu {
   display: none;
@@ -141,7 +142,7 @@ nav {
 .menu-icon i {
   line-height: 32px;
   font-size: 22px;
-  color: #a92ec8;
+  color: #1063fe;
 }
 
 .mega-menu-link a {
@@ -150,7 +151,7 @@ nav {
 }
 
 .mega-menu-link a:hover {
-  color: #a92ec8;
+  color: #1063fe;
 }
 
 .mega-menu-link p {
@@ -160,7 +161,7 @@ nav {
 }
 
 // .dropdown:hover .mega-menu {
-//   color: #a92ec8;
+//   color: #1063fe;
 //   visibility: visible;
 //   transition: all 0.3s ease;
 //   opacity: 1;
@@ -214,7 +215,7 @@ nav {
 
   .close-menu {
     margin: 1rem 1rem 1rem auto;
-    background-color: #a92ec8;
+    background-color: #1063fe;
     border-radius: 50%;
     width: 32px;
     height: 32px;

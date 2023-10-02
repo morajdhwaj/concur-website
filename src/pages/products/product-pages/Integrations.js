@@ -1,9 +1,10 @@
 import React from 'react';
+import PartnerShip from '../../../components/partner-ship/PartnerShip';
 
 const Integrations = () => {
   return (
-    <div>
-      <h1>Integrations</h1>
+    <div className='products'>
+      <PartnerShip header={'Integrations'} />
     </div>
   );
 };

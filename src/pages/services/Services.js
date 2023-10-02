@@ -20,7 +20,13 @@ const Services = () => {
       <ServiceScroll1 />
       <ServiceScroll2 />
       <ServiceScroll3 />
-      <PartnerShip />
+      <PartnerShip
+        header={'Strategic partnerships'}
+        title={' Efficient SAP migration'}
+        descriptions={
+          'We provide custom SAP S/4HANA roadmaps that lower costs increase agility and improve results'
+        }
+      />
       <Subscribe2 />
       <Industries />
       <Studies />
