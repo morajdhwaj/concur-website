@@ -1,0 +1,150 @@
+.manage-data {
+  margin: 5vh;
+}
+
+.manage-data-div1 {
+  padding: 10vh 0 0;
+}
+
+.manage-data-div1-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.manage-data-div1-header {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.manage-data-div2 {
+  display: flex;
+  margin: 10vh 0 5vh 0;
+  flex-wrap: wrap;
+  gap: 5vh;
+}
+.manage-data-div2-card {
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.manage-data-div2-card-div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  border-right: 1px solid rgb(235, 235, 235);
+}
+
+.manage-data-div2-card-div2-h {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.manage-data-div2-card-div2-p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 2vh;
+  line-height: 3vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .manage-data {
+    margin: 10vh;
+  }
+
+  .manage-data-div1 {
+    padding: 10vh 0 0;
+  }
+
+  .manage-data-div1-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .manage-data-div1-header {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .manage-data-div2 {
+    display: flex;
+    margin: 10vh 0 5vh 0;
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+  .manage-data-div2-card {
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .manage-data-div2-card-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-right: 1px solid rgb(235, 235, 235);
+  }
+
+  .manage-data-div2-card-div2-h {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .manage-data-div2-card-div2-p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 2vh;
+    line-height: 3vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .manage-data {
+    margin: 10vh 25vh 10vh 25vh;
+  }
+
+  .manage-data-div1 {
+    padding: 10vh 0 0;
+  }
+
+  .manage-data-div1-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .manage-data-div1-header {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .manage-data-div2 {
+    display: flex;
+    margin: 10vh 0 5vh 0;
+    flex-wrap: wrap;
+    gap: 5vh;
+  }
+  .manage-data-div2-card {
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .manage-data-div2-card-div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-right: 1px solid rgb(235, 235, 235);
+  }
+
+  .manage-data-div2-card-div2-h {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .manage-data-div2-card-div2-p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 2vh;
+    line-height: 3vh;
+  }
+}
