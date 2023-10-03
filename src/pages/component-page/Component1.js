@@ -9,6 +9,8 @@ import SlickSlider from '../../components/slick-slider';
 import SectionLeft from '../../components/section-left/SectionLeft';
 import SectionRight from '../../components/section-right/SectionRight';
 import ManageData from '../../components/manage-data/ManageData';
+import ShortSectionRight from '../../components/short-section-right/ShortSectionRight';
+import ShortSectionLeft from '../../components/short-section-left';
 
 const Component1 = () => {
   return (
@@ -20,6 +22,8 @@ const Component1 = () => {
       <SectionLeft />
       <SectionRight />
       <ManageData />
+      <ShortSectionRight />
+      <ShortSectionLeft />
       <DuoComponent
         heading={'Achieving real-time visibility'}
         detail={
