@@ -5,6 +5,10 @@ import RegisterBar from '../../components/register-bar';
 import DuoComponent from '../../components/duo-component';
 import Hero2 from '../../components/hero-2';
 import LeadSpace2 from '../../components/lead-space-2';
+import SlickSlider from '../../components/slick-slider';
+import SectionLeft from '../../components/section-left/SectionLeft';
+import SectionRight from '../../components/section-right/SectionRight';
+import ManageData from '../../components/manage-data/ManageData';
 
 const Component1 = () => {
   return (
@@ -12,6 +16,10 @@ const Component1 = () => {
       <LeadSpace />
       <ImgTile />
       <RegisterBar />
+      <SlickSlider />
+      <SectionLeft />
+      <SectionRight />
+      <ManageData />
       <DuoComponent
         heading={'Achieving real-time visibility'}
         detail={
@@ -34,6 +42,7 @@ const Component1 = () => {
         }
       />
       <Hero2 />
+
       <LeadSpace2 />
     </div>
   );
